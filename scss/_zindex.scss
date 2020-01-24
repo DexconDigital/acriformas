@@ -432,7 +432,13 @@ header {
     height: 620px;
 
     .imagen {
+        width: 100%;
+        height: 100%;
         z-index: 100;        
+        img {
+            width: 100%;
+            height: 100%;
+        }
     }
 
     .atenuar_imagen { 
@@ -549,7 +555,7 @@ header {
 
             h4 {
                 transition: all 350ms;
-                margin-top: 305px;
+                margin-top: 75%;
             }
         }
 
@@ -571,7 +577,7 @@ header {
                 .span,&::after,a {
                     transition: all 250ms;
                 }
-                
+
             }
 
         }
@@ -640,6 +646,33 @@ header {
 
         &:hover {
             background-color: #6fb635ad;
+        }
+    }
+
+}
+
+#seccion_formularios {
+
+    height: 821px;
+
+    .imagen {
+
+        width: 100%;
+        height: 100%;
+
+        img {
+            height: 100%;
+            position: relative;
+            left: -25%;
+
+        }
+    }
+
+    .contenido {
+
+        h2 {
+            color: white;
+            font-size: 55px;
         }
     }
 

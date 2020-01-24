@@ -43,7 +43,7 @@ $page = "Inicio";
 
             <div class="derecha p-0 col-9 d-flex flex-wrap">
 
-                <a href="#" class="p-0 d-flex flex-column align-items-center justify-content-center py-5 icono icono1 col-2">
+                <a href="#" class="p-0 m-auto py-5 icono icono1 col-2">
                     <img src="images/impresora.png" alt="">
                     <p class="text-center mt-2"> Impresión digital </p>
                 </a>
@@ -298,7 +298,35 @@ $page = "Inicio";
     </section>
     <!-- SECCION DE VIDEOS -->
 
-    
+    <!-- SECCION DESCARGAR FORMULARIOS -->
+    <section id="seccion_formularios" class="position-relative">
+
+        <div class="imagen position-absolute"> <img src="images/imagen_formularios.webp" alt=""> </div>
+
+        <div class="d-flex h-100 w-100 position-relative">
+
+            <div class="col-6"></div>
+
+            <div class="contenido col-6 m-auto">
+                <div>
+                    <h4 class="y"> Encuentra todo lo que buscas </h4>
+                    <h2 class="text-uppercase mt-3"> OFRECEMOS UN APLIO RANGO DE Lorem ipsum dolor sit amet consectetur </h2>
+                    <p class="blanco mt-3"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod repellat eum doloribus in non sed veritatis porro ab fuga similique. </p>
+                </div>
+
+                <div class="position-relative">
+                    <i style="color: green; background-color:yellow" class="fas fa-check-square"></i>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+    <!-- SECCION DESCARGAR FORMULARIOS -->
+
 
 
 

@@ -12126,7 +12126,12 @@ header {
 #seccion_video {
   height: 620px; }
   #seccion_video .imagen {
+    width: 100%;
+    height: 100%;
     z-index: 100; }
+    #seccion_video .imagen img {
+      width: 100%;
+      height: 100%; }
   #seccion_video .atenuar_imagen {
     width: 100%;
     height: 100%;
@@ -12200,7 +12205,7 @@ header {
       -webkit-transition: all 350ms;
       -o-transition: all 350ms;
       transition: all 350ms;
-      margin-top: 305px; }
+      margin-top: 75%; }
   #seccion_videos .card1 .caja_boton, #seccion_videos .card3 .caja_boton, #seccion_videos .card4 .caja_boton {
     -webkit-transition: all 250ms;
     -o-transition: all 250ms;
@@ -12269,3 +12274,16 @@ header {
 
 #seccion_videos .card4:hover {
   background-color: #6fb635ad; }
+
+#seccion_formularios {
+  height: 821px; }
+  #seccion_formularios .imagen {
+    width: 100%;
+    height: 100%; }
+    #seccion_formularios .imagen img {
+      height: 100%;
+      position: relative;
+      left: -25%; }
+  #seccion_formularios .contenido h2 {
+    color: white;
+    font-size: 55px; }
