@@ -18,117 +18,7 @@ $page = "Inicio";
 
 
     <!-- HEADER -->
-    <header class="w-100 sticky-top position-fixed">
-        <section class="container">
-
-            <!-- LOGO Y MENU -->
-            <section>
-                <nav class="navbar navbar-expand-lg navbar-light">
-
-                    <div class="imagen_logo"> <img src="images/acriformas_full color.png" alt=""> </div>
-
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="flex-column align-items-lg-end align-items-xl-end align-items-start collapse navbar-collapse" id="navbarSupportedContent">
-
-                        <ul id="menu" class="navbar-nav m-auto">
-
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#"> Inicio </a>
-                            </li>
-
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#"> Quienes Somos </a>
-                            </li>
-
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#"> Servicios </a>
-                            </li>
-
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#"> Proyectos </a>
-                            </li>
-
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#"> Clientes </a>
-                            </li>
-
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#"> Contactenos </a>
-                            </li>
-
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#"> Noticias </a>
-                            </li>
-
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#"> FAQ </a>
-                            </li>
-
-                            <!-- <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Dropdown
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </div>
-                                </li> -->
-
-                        </ul>
-
-                        <!-- REDES SOCIALES Y CONTACTO -->
-                        <section id="redes_contacto" class="d-flex justify-content-end mr-5">
-
-
-                            <a href="mailto:comercial@acriformas.com" class="correo mx-1 d-flex align-items-center justify-content-center">
-                                <i class="icono mr-1 fas fa-envelope"></i>
-                                <p> comercial@acriformas.com </p>
-                            </a>
-
-                            <a href="mailto:comercial@acriformas.com" class="correo mx-1 d-flex align-items-center justify-content-center">
-                                <i class="icono mr-1 fas fa-phone"></i>
-                                <p> 3114452343 </p>
-                            </a>
-
-
-                            <a href="#">
-                                <div class="mx-1 circulo c_facebook d-flex align-items-center justify-content-center">
-                                    <i class="m-auto fab fa-facebook-f"></i>
-                                </div>
-                            </a>
-
-                            <a href="#">
-                                <div class="mx-1 circulo c_instagram d-flex align-items-center justify-content-center">
-                                    <i class="m-auto fab fa-instagram"></i>
-                                </div>
-                            </a>
-
-                            <a href="#">
-                                <div class="mx-1 circulo c_twitter d-flex align-items-center justify-content-center">
-                                    <i class="m-auto fab fa-twitter"></i>
-                                </div>
-                            </a>
-
-                        </section>
-                        <!-- REDES SOCIALES Y CONTACTO -->
-                    </div>
-
-                </nav>
-            </section>
-            <!-- LOGO Y MENU -->
-
-
-
-
-
-
-        </section>
-    </header>
+    <?php include 'layout/header.php' ?>
     <!-- HEADER -->
 
     <!-- IMAGENES PRINCIPALES -->
@@ -190,6 +80,38 @@ $page = "Inicio";
     </section>
     <!-- SERVICIOS -->
 
+    <!-- SECCION ALIADOS  -->
+    <section id="logos">
+        <div class="d-flex m-auto h-100 align-items-center justify-content-center container">
+
+            <div class="col-2">
+                <img src="images/logo1.webp" alt="">
+            </div>
+
+            <div class="col-2">
+                <img src="images/logo2.webp" alt="">
+            </div>
+
+            <div class="col-2">
+                <img src="images/logo3.webp" alt="">
+            </div>
+
+            <div class="col-2">
+                <img src="images/logo4.webp" alt="">
+            </div>
+
+            <div class="col-2">
+                <img src="images/logo5.webp" alt="">
+            </div>
+
+            <div class="col-2">
+                <img src="images/logo6.webp" alt="">
+            </div>
+
+        </div>
+    </section>
+    <!-- SECCION ALIADOS  -->
+
     <!-- SECCION1 -->
     <section id="seccion1" class="d-flex aling-items-center justify-content-center container mt-5">
 
@@ -204,9 +126,15 @@ $page = "Inicio";
                 responsabilidad social empresarial.
             </p>
 
-            <button class="btn boton blanco"> <p>Descubre más </p></button>
-            <!-- <div class="boton_hover"> </div> -->
-            <!-- <div class="boton_hover2"> </div> -->
+            <!-- BOTON -->
+            <a href="#" class="position-relative btn boton blanco mt-3">
+                <p class="contenido_boton"> Descubre más </p>
+                <div class="c1"></div>
+                <div class="c2"></div>
+                <div class="c3"></div>
+            </a>
+            <!-- BOTON -->
+
 
         </div>
 
@@ -217,28 +145,164 @@ $page = "Inicio";
     </section>
     <!-- SECCION1 -->
 
-    <!-- SECCION1 -->
-    <section id="seccion2" class="d-flex aling-items-center justify-content-center container mt-5">
+    <!-- SECCION VIDEO -->
+    <section id="seccion_video" class="position-relative mt-5">
 
-        <div class="col-7">
+        <div class="d-flex">
 
-            <h4 class="m"> Bienvenido a: </h4>
-            <h2 class="mt-3 font-weight-bold"> ACRIFORMAS PUBLICIDAD S.A.S. DIGITAL & MERCHANDISING </h2>
-            <p class="mt-2 text-justify"> Somos un aliado estratégico para nuestros clientes en el desarrollo de la
-                comunicación gráfica de forma integral, a través de un talento humano
-                competente y comprometido, generando los resultados y beneficios esperados
-                mediante ideas creativas e innovadoras, eco-amigables con un enfoque de
-                responsabilidad social empresarial.
-            </p>
+            <div class="imagen position-absolute">
+                <img src="images/imagen_video.jpg" alt="">
+            </div>
 
-        </div>
+            <div class="atenuar_imagen position-absolute">
+            </div>
 
-        <div class="col-5">
-            <img src="images/lupa_colores.jpg" alt="">
+            <div class="contenido position-absolute d-flex align-items-center justify-content-center flex-column w-100 h-100">
+
+                <h4 class="y"> Le damos forma a tus ideas </h4>
+                <h2 class="w-75 font-weight-bold blanco mt-3 text-uppercase"> Experiencia en soluciones de impresión, digital y merchandising por más de 13 años. </h2>
+
+                <!-- BOTON VIDEO -->
+                <a href="#" class="mt-5 boton_video d-flex position-relative align-items-center justify-content-center">
+                    <i class="icono far fa-play-circle"></i>
+                    <div class="boton_video2 position-absolute"> </div>
+                    <div class="boton_video3 position-absolute"> </div>
+                </a>
+                <!-- BOTON VIDEO -->
+
+            </div>
+
         </div>
 
     </section>
-    <!-- SECCION1 -->
+    <!-- SECCION VIDEO -->
+
+    <!-- SECCION TESTIMONIOS -->
+    <section id="seccion_testimonios" class="mt-5">
+
+        <div class="d-flex container">
+
+            <!-- CARDS CON ICONOS -->
+            <div class="caja_cards rounded col-6 d-flex flex-wrap align-items-center justify-content-center">
+
+                <a href="#" class="col-5 rounded cards0 d-flex align-items-center flex-column justify-content-center mx-3 my-3">
+                    <div class="icono"> <img src="images/logo dexcon digital_blanco.png" alt=""> </div>
+                </a>
+
+                <a href="#" class="col-5 rounded cards0 d-flex align-items-center flex-column justify-content-center mx-3 my-3">
+                    <div class="icono"> <img src="images/logo1.webp" alt=""> </div>
+                </a>
+
+                <a href="#" class="col-5 rounded cards0 d-flex align-items-center flex-column justify-content-center mx-3 mb-3">
+                    <div class="icono"> <img src="images/logo1.webp" alt=""> </div>
+                </a>
+
+                <a href="#" class="col-5 rounded cards0 d-flex align-items-center flex-column justify-content-center mx-3 mb-3">
+                    <div class="icono"> <img src="images/logo1.webp" alt=""> </div>
+                </a>
+
+            </div>
+            <!-- CARDS CON ICONOS -->
+
+            <!-- TEXTO TESTIMONIOS -->
+            <div class="col-6 d-flex align-items-center flex-column justify-content-center">
+
+                <h4 class="verde text-center"> Nuestros </h4>
+                <h2 class="font-weigh-bold text-center mt-3"> TESTIMONIOS </h2>
+                <p class="mt-3 text-justify px-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eos accusantium minima iusto nobis debitis delectus corporis non facere sit atque, unde aspernatur qui, illum itaque magni, maiores mollitia. Aliquam, architecto officiis. Doloremque magnam dicta est voluptatibus esse natus non? </p>
+
+            </div>
+            <!-- TEXTO TESTIMONIOS -->
+
+        </div>
+
+    </section>
+    <!-- SECCION TESTIMONIOS -->
+
+    <!-- SECCION DE VIDEOS -->
+    <section id="seccion_videos" class="mt-5">
+
+        <div class="d-flex">
+
+            <!-- CARD 1 -->
+            <div class="col-4 p-0 mt-5 card1 cian">
+
+                <div class="imagen position-absolute"> <img src="images/mvideo1.jpg" alt=""> </div>
+
+                <div class="fondo h-100 w-100 position-absolute"></div>
+
+                <div class="titulo_y_parrafo d-flex col-12 p-0 align-items-center justify-content-center flex-column">
+
+                    <div class="pt-5 mx-4">
+                        <h4 class="blanco"> titulo </h4>
+                        <p class="blanco text-justify"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eos cumque, itaque veritatis pariatur voluptatem est sequi repellendus sed accusamus dolore quae nam maiores blanditiis quam eligendi voluptas assumenda deserunt! </p>
+                    </div>
+
+                </div>
+
+                <div class="caja_boton position-relative mx-4 mt-3">
+                    <a class="boton_videos" href="#"> <span>&#8250;</span> </a>
+                </div>
+
+            </div>
+            <!-- CARD 1 -->
+
+            <!-- CARD 2 -->
+            <div class="col-4 p-0 mt-5 card3 magenta">
+
+                <div class="imagen position-absolute"> <img src="images/mvideo2.jpg" alt=""> </div>
+
+                <div class="fondo h-100 w-100 position-absolute"></div>
+
+                <div class="titulo_y_parrafo d-flex col-12 p-0 align-items-center justify-content-center flex-column">
+
+                    <div class="pt-5 mx-4">
+                        <h4 class="blanco"> titulo </h4>
+                        <p class="blanco text-justify"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eos cumque, itaque veritatis pariatur voluptatem est sequi repellendus sed accusamus dolore quae nam maiores blanditiis quam eligendi voluptas assumenda deserunt! </p>
+                    </div>
+
+                </div>
+
+                <div class="caja_boton position-relative mx-4 mt-3">
+                    <a class="boton_videos" href="#"> <span>&#8250;</span> </a>
+                </div>
+
+            </div>
+            <!-- CARD 2 -->
+
+            <!-- CARD 3 -->
+            <div class="col-4 p-0 mt-5 card4 yellow">
+
+                <div class="imagen position-absolute"> <img src="images/mvideo3.jpg" alt=""> </div>
+
+                <div class="fondo h-100 w-100 position-absolute"></div>
+
+                <div class="titulo_y_parrafo d-flex col-12 p-0 align-items-center justify-content-center flex-column">
+
+                    <div class="pt-5 mx-4">
+                        <h4 class="blanco"> titulo </h4>
+                        <p class="blanco text-justify"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eos cumque, itaque veritatis pariatur voluptatem est sequi repellendus sed accusamus dolore quae nam maiores blanditiis quam eligendi voluptas assumenda deserunt! </p>
+                    </div>
+
+                </div>
+
+                <div class="caja_boton position-relative mx-4 mt-3">
+                    <a class="boton_videos" href="#"> <span>&#8250;</span> </a>
+                </div>
+
+            </div>
+            <!-- CARD 3 -->
+
+        </div>
+
+    </section>
+    <!-- SECCION DE VIDEOS -->
+
+    
+
+
+
+
 
 
 
