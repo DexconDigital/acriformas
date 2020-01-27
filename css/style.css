@@ -11883,6 +11883,9 @@ p, h1, h2, h3, h4, h5, h6 {
 .blanco {
   color: white; }
 
+.bg_blanco {
+  background-color: white; }
+
 .negro {
   color: black; }
 
@@ -11919,6 +11922,9 @@ a {
     color: initial;
     text-decoration: none; }
 
+.f50 {
+  font-size: 50px; }
+
 .boton {
   border: none;
   background-color: #EC268F;
@@ -11950,13 +11956,13 @@ a {
   transition: all 250ms;
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
-  transform: scale(0); }
+  transform: scale(0);
+  position: absolute; }
 
 .c3 {
   -webkit-transition-delay: .02s;
   -o-transition-delay: .02s;
   transition-delay: .02s;
-  position: absolute;
   border: 1px solid #373435;
   border-radius: 50%;
   width: 60px;
@@ -11965,7 +11971,6 @@ a {
   left: calc(50% - 30px); }
 
 .c2 {
-  position: absolute;
   -webkit-transition-delay: .05s;
   -o-transition-delay: .05s;
   transition-delay: .05s;
@@ -11977,7 +11982,6 @@ a {
   left: calc(50% - 25px); }
 
 .c1 {
-  position: absolute;
   -webkit-transition-delay: .1s;
   -o-transition-delay: .1s;
   transition-delay: .1s;
@@ -12055,6 +12059,11 @@ header {
       width: 100%;
       position: relative;
       top: -160px; }
+
+#servicios p {
+  -webkit-transition: all 250ms;
+  -o-transition: all 250ms;
+  transition: all 250ms; }
 
 #servicios .izquierda {
   color: white;
@@ -12276,14 +12285,103 @@ header {
   background-color: #6fb635ad; }
 
 #seccion_formularios {
-  height: 821px; }
+  height: 500px; }
   #seccion_formularios .imagen {
-    width: 100%;
-    height: 100%; }
+    overflow: hidden; }
     #seccion_formularios .imagen img {
       height: 100%;
-      position: relative;
-      left: -25%; }
-  #seccion_formularios .contenido h2 {
-    color: white;
-    font-size: 55px; }
+      width: 100%;
+      position: relative; }
+  #seccion_formularios .contenido .icono {
+    color: #6FB635; }
+
+#seccion_proyectos {
+  background-image: url("../images/fondo_proyectos.jpg"); }
+  #seccion_proyectos a {
+    height: 270px;
+    overflow: hidden; }
+    #seccion_proyectos a .imagen {
+      width: 100%;
+      height: 100%; }
+      #seccion_proyectos a .imagen img {
+        width: 100%;
+        height: 100%; }
+    #seccion_proyectos a .fondo_negro {
+      -webkit-transition: all 300ms;
+      -o-transition: all 300ms;
+      transition: all 300ms;
+      height: 100%;
+      width: 100%;
+      left: -30%; }
+    #seccion_proyectos a .contenido {
+      -webkit-transition: 250ms;
+      -o-transition: 250ms;
+      transition: 250ms;
+      -webkit-transition-delay: 100ms;
+      -o-transition-delay: 100ms;
+      transition-delay: 100ms;
+      left: -100%;
+      opacity: 0;
+      -webkit-filter: blur(6px);
+      filter: blur(6px); }
+    #seccion_proyectos a:hover .fondo_negro {
+      background-color: rgba(0, 0, 0, 0.7);
+      height: 100%;
+      width: 100%;
+      left: 0%; }
+    #seccion_proyectos a:hover .contenido {
+      left: 0%;
+      opacity: 1;
+      -webkit-filter: none;
+      filter: none; }
+  #seccion_proyectos a:last-of-type {
+    height: initial; }
+
+#seccion_faq .progress {
+  height: 5px; }
+
+#seccion_faq .accordion .mas {
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 25px; }
+
+#seccion_faq .accordion button {
+  -webkit-transition: all 250ms;
+  -o-transition: all 250ms;
+  transition: all 250ms;
+  background-color: lightgray;
+  padding: 15px;
+  border: none; }
+  #seccion_faq .accordion button:focus {
+    outline: none; }
+  #seccion_faq .accordion button:hover {
+    background-color: #00AFEF; }
+
+#noticias_y_twitter_feed {
+  background-image: url("../images/fondo_proyectos.jpg"); }
+  #noticias_y_twitter_feed .noticia {
+    height: 120px;
+    overflow: hidden;
+    -webkit-transition: all 250ms;
+    -o-transition: all 250ms;
+    transition: all 250ms; }
+    #noticias_y_twitter_feed .noticia .d_m {
+      -webkit-transition: all 250ms;
+      -o-transition: all 250ms;
+      transition: all 250ms; }
+    #noticias_y_twitter_feed .noticia .dia {
+      font-size: 35px; }
+    #noticias_y_twitter_feed .noticia:hover {
+      border-radius: 10px;
+      -webkit-box-shadow: -3px 6px 20px grey;
+      box-shadow: -3px 6px 20px grey; }
+      #noticias_y_twitter_feed .noticia:hover .d_m {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1); }
+
+#formulario_contacto .contenedor {
+  height: 300px; }
+  #formulario_contacto .contenedor .icono {
+    font-size: 45px; }

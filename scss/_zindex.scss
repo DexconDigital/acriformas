@@ -44,6 +44,10 @@ p,h1,h2,h3,h4,h5,h6 {
     color: white;
 }
 
+.bg_blanco {
+    background-color: white;
+}
+
 .negro {
     color: black;
 }
@@ -96,6 +100,10 @@ a {
     }
 }
 
+.f50 {
+    font-size: 50px;
+}
+
 // BOTON Y ANIMACIONES 
 
 .boton {
@@ -133,11 +141,11 @@ a {
     z-index: 200;
     transition: all 250ms;
     transform: scale(0);
+    position: absolute;
 }
 
 .c3 {
     transition-delay: .02s;
-    position: absolute;
     border: 1px solid $k;
     border-radius: 50%;
     width: 60px;
@@ -148,7 +156,6 @@ a {
 
 
 .c2 {
-    position: absolute;
     transition-delay: .05s;
     border: 1px solid $k;
     border-radius: 50%;
@@ -159,7 +166,6 @@ a {
 }
 
 .c1 {
-    position: absolute;
     transition-delay: .1s;
     background-color: black;
     border-radius: 50%;
@@ -290,6 +296,10 @@ header {
 }
 
 #servicios {
+
+    p {
+        transition: all 250ms;
+    }
 
     .izquierda {
 
@@ -653,30 +663,185 @@ header {
 
 #seccion_formularios {
 
-    height: 821px;
+    height: 500px;
 
     .imagen {
 
-        width: 100%;
-        height: 100%;
+        overflow: hidden;
 
         img {
             height: 100%;
+            width: 100%;
             position: relative;
-            left: -25%;
-
         }
     }
 
     .contenido {
-
-        h2 {
-            color: white;
-            font-size: 55px;
+        
+        .icono {
+            color: $verde;
         }
     }
 
 }
+
+#seccion_proyectos {
+
+    background-image: url("../images/fondo_proyectos.jpg");
+
+    a {
+
+        height: 270px;
+        overflow: hidden;
+
+        .imagen {
+
+            width: 100%;
+            height: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+    
+        }
+    
+        .fondo_negro {
+    
+            transition: all 300ms;
+            height: 100%;
+            width: 100%;
+            left: -30%;
+    
+        }
+    
+        .contenido {
+            transition: 250ms;
+            transition-delay: 100ms;
+            left: -100%;
+            opacity: 0;
+            filter: blur(6px);
+
+        }
+
+
+        &:hover {
+
+            .fondo_negro {
+    
+                background-color: rgba(0, 0, 0, 0.7);
+                height: 100%;
+                width: 100%;
+                left: 0%;
+            }
+
+            .contenido {
+                left: 0%;
+                opacity: 1;
+                filter: none;
+            }
+
+        }
+
+    }
+
+    a:last-of-type {
+        height:initial;
+    }
+
+}
+
+#seccion_faq {
+
+    .progress {
+        height: 5px;
+    }
+
+    .accordion {
+
+        .mas {
+
+            background-color: white;
+            width: 35px; 
+            height: 35px;
+            border-radius: 25px;
+        }
+
+
+        button {
+
+            transition: all 250ms;
+            background-color: lightgray;
+            padding: 15px;
+            border: none;
+
+            &:focus {
+                outline: none;
+            }
+
+            &:hover {
+
+                background-color: $c;
+
+            }
+
+        }
+
+
+
+
+
+    }
+
+}
+
+#noticias_y_twitter_feed {
+    
+    background-image: url("../images/fondo_proyectos.jpg");
+
+    .noticia {
+
+        height: 120px;
+        overflow: hidden;
+        transition: all 250ms;
+
+        .d_m {
+            transition: all 250ms;
+        }
+
+        .dia {
+            font-size: 35px;
+        }
+
+        &:hover {
+            
+            border-radius: 10px;
+            box-shadow: -3px 6px 20px grey;
+
+            .d_m {
+                transform: scale(1.1);
+            }
+
+        }
+
+    }
+
+
+}
+
+#formulario_contacto {
+
+    .contenedor {
+
+        height: 300px;
+
+        .icono {
+            font-size: 45px;
+        }
+    }
+
+}
+
 
 
 

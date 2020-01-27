@@ -43,7 +43,7 @@ $page = "Inicio";
 
             <div class="derecha p-0 col-9 d-flex flex-wrap">
 
-                <a href="#" class="p-0 m-auto py-5 icono icono1 col-2">
+                <a href="#" class="p-0 d-flex flex-column align-items-center justify-content-center py-5 icono icono1 col-2">
                     <img src="images/impresora.png" alt="">
                     <p class="text-center mt-2"> Impresión digital </p>
                 </a>
@@ -301,45 +301,419 @@ $page = "Inicio";
     <!-- SECCION DESCARGAR FORMULARIOS -->
     <section id="seccion_formularios" class="position-relative">
 
-        <div class="imagen position-absolute"> <img src="images/imagen_formularios.webp" alt=""> </div>
+        <div class="imagen w-100 h-100 position-absolute"> <img src="images/imagen_formularios.webp" alt=""> </div>
 
+        <!-- CONTENIDO -->
         <div class="d-flex h-100 w-100 position-relative">
 
             <div class="col-6"></div>
 
             <div class="contenido col-6 m-auto">
-                <div>
-                    <h4 class="y"> Encuentra todo lo que buscas </h4>
-                    <h2 class="text-uppercase mt-3"> OFRECEMOS UN APLIO RANGO DE Lorem ipsum dolor sit amet consectetur </h2>
-                    <p class="blanco mt-3"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod repellat eum doloribus in non sed veritatis porro ab fuga similique. </p>
-                </div>
 
-                <div class="position-relative">
-                    <i style="color: green; background-color:yellow" class="fas fa-check-square"></i>
+                <!-- TITULOS Y PARRAFO -->
+                <div>
+                    <h4 class="verde"> Encuentra todo lo que buscas </h4>
+                    <h2 class="text-uppercase mt-3 font-weight-bold f50 blanco"> OFRECEMOS UN APLIO RANGO DE SERVICIOS </h2>
+                    <p class="blanco mt-3"> Tenemos la experiencia para aportar soluciones claras y creativas para nuestros clientes, ayudándoles a crear y compartir experiencias de marca de vanguardia orientadas a comunicar la esencia de los proyectos en cada punto de contacto, con el propósito de contribuir al logro de sus objetivos. </p>
                 </div>
+                <!-- TITULOS Y PARRAFO -->
+
+
+                <!-- DESCARGABLES  -->
+                <div class="position-relative d-flex">
+
+                    <div class="mr-3 d-flex align-items-baseline">
+                        <i class="mr-2 mt-3 icono fas fa-check-square"></i>
+                        <a class="blanco" href="#">
+                            <p> Brochure Digital </p>
+                        </a>
+                    </div>
+
+                    <div class="d-flex align-items-baseline">
+                        <i class="mr-2 mt-3 icono fas fa-check-square"></i>
+                        <a class="blanco" target="blank" href="https://drive.google.com/open?id=1aCIwhplwCgGa7ThOhL5Td03j9r2_FzSk">
+                            <p> Catalogo Merchandising </p>
+                        </a>
+                    </div>
+
+                </div>
+                <!-- DESCARGABLES  -->
 
             </div>
 
+        </div>
+        <!-- CONTENIDO -->
+
+    </section>
+    <!-- SECCION DESCARGAR FORMULARIOS -->
+
+    <!-- SECCION PROYECTOS -->
+    <section id="seccion_proyectos" class="py-5">
+
+        <div>
+            <h4 class="text-center verde"> Proyectos recientes </h4>
+            <h2 class="font-weight-bold text-center f50 mt-3"> Nuestros Proyectos </h2>
+        </div>
+
+
+        <!-- TARJETAS -->
+        <div class="d-flex flex-wrap mt-5">
+
+            <!-- TARJETA 1 -->
+            <a href="#" class="col-4 p-0 position-relative">
+
+                <div class="imagen position-absolute">
+                    <img src="images/proyecto1.jpg" alt="">
+                </div>
+
+                <div class="fondo_negro position-absolute"> </div>
+
+                <div class="contenido position-relative w-100 h-100 d-flex align-items-center justify-content-center">
+                    <h2 class="blanco font-weight-bold"> Titulo del proyecto </h2>
+                </div>
+
+            </a>
+            <!-- TARJETA 1 -->
+
+            <!-- TARJETA 2 -->
+            <a href="#" class="col-4 p-0 position-relative">
+
+                <div class="imagen position-absolute">
+                    <img src="images/proyecto2.jpg" alt="">
+                </div>
+
+                <div class="fondo_negro position-absolute"> </div>
+
+                <div class="contenido position-relative w-100 h-100 d-flex align-items-center justify-content-center">
+                    <h2 class="blanco font-weight-bold"> Titulo del proyecto </h2>
+                </div>
+
+            </a>
+            <!-- TARJETA 2 -->
+
+            <!-- TARJETA 3 -->
+            <a href="#" class="col-4 p-0 position-relative">
+
+                <div class="imagen position-absolute">
+                    <img src="images/proyecto3.jpg" alt="">
+                </div>
+
+                <div class="fondo_negro position-absolute"> </div>
+
+                <div class="contenido position-relative w-100 h-100 d-flex align-items-center justify-content-center">
+                    <h2 class="blanco font-weight-bold"> Titulo del proyecto </h2>
+                </div>
+
+            </a>
+            <!-- TARJETA 3 -->
+
+            <!-- TARJETA 4 -->
+            <a href="#" class="col-4 p-0 position-relative">
+
+                <div class="imagen position-absolute">
+                    <img src="images/proyecto1.jpg" alt="">
+                </div>
+
+                <div class="fondo_negro position-absolute"> </div>
+
+                <div class="contenido position-relative w-100 h-100 d-flex align-items-center justify-content-center">
+                    <h2 class="blanco font-weight-bold"> Titulo del proyecto </h2>
+                </div>
+
+            </a>
+            <!-- TARJETA 4 -->
+
+            <!-- TARJETA 5 -->
+            <a href="#" class="col-4 p-0 position-relative">
+
+                <div class="imagen position-absolute">
+                    <img src="images/proyecto2.jpg" alt="">
+                </div>
+
+                <div class="fondo_negro position-absolute"> </div>
+
+                <div class="contenido position-relative w-100 h-100 d-flex align-items-center justify-content-center">
+                    <h2 class="blanco font-weight-bold"> Titulo del proyecto </h2>
+                </div>
+
+            </a>
+            <!-- TARJETA 5 -->
+
+            <!-- TARJETA 6 -->
+            <a href="#" class="col-4 p-0 position-relative">
+
+                <div class="imagen position-absolute">
+                    <img src="images/proyecto3.jpg" alt="">
+                </div>
+
+                <div class="fondo_negro position-absolute"> </div>
+
+                <div class="contenido position-relative w-100 h-100 d-flex align-items-center justify-content-center">
+                    <h2 class="blanco font-weight-bold"> Titulo del proyecto </h2>
+                </div>
+
+            </a>
+            <!-- TARJETA 6 -->
+
+        </div>
+        <!-- TARJETAS -->
+
+        <!-- BOTON -->
+        <div class="container-fluid d-flex align-items-center justify-content-center mt-5">
+            <a href="#" class="btn boton blanco">
+                <p class="contenido_boton"> Ver todos los proyectos </p>
+                <div class="c1"></div>
+                <div class="c2"></div>
+                <div class="c3"></div>
+            </a>
+        </div>
+        <!-- BOTON -->
+
+    </section>
+    <!-- SECCION PROYECTOS -->
+
+    <!-- SECCION FAQ -->
+    <section id="seccion_faq" class="container d-flex mt-5">
+
+        <!-- NUESTRAS CAPACIDADES -->
+        <div class="col-6">
+
+            <h2 class="font-weight-bold text-center mb-3"> Nuestras capacidades </h2>
+            <p> Nuestras capacidades están estructuradas para apoyar a las compañías a enfrentar el futuro. </p>
+            <br />
+            <p> Encontramos nuevos propósitos, para ser más relevantes y aprovechar las oportunidades para impulsar el crecimiento de nuestros clientes de maneras sin precedentes, con las herramientas publicitarias y creativas que rompen los esquemas tradicionales del mercado actual. </p>
+
+            <p class="mt-3 font-weight-bold"> IMPRESION DIGITAL </p>
+
+            <div class="progress my-2">
+                <div class="progress-bar bg_c" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <p class="mt-3 font-weight-bold"> IMPRESION OFFSET </p>
+
+            <div class="progress my-2">
+                <div class="progress-bar bg_c" role="progressbar" style="width: 85%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <p class="mt-3 font-weight-bold"> IMPRESION MERCHANDISING </p>
+
+            <div class="progress my-2">
+                <div class="progress-bar bg_c" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <p class="mt-3 font-weight-bold"> FERIAS Y EVENTOS </p>
+
+            <div class="progress my-2">
+                <div class="progress-bar bg_c" role="progressbar" style="width: 79%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+        </div>
+        <!-- NUESTRAS CAPACIDADES -->
+
+
+        <!-- SECCION DE PREGUNTAS -->
+        <div class="col-6">
+
+            <h2 class="font-weight-bold text-center"> FAQ </h2>
+
+            <!-- ACORDEON CON PREGUNTAS -->
+            <div class="accordion" id="accordionExample">
+
+                <button id="botonnn" class="rounded col-12 my-2" data-toggle="collapse" data-target="#boton1" aria-expanded="true" aria-controls="collapseOne">
+
+                    <div class="d-flex align-items-center">
+                        <!-- <i class="fas fa-window-minimize"></i> -->
+                        <div class="mr-2 mas d-flex align-items-center justify-content-center"><i id="icono" class="c fas fa-plus"></i></div>
+                        <p> PREGUNTA #1 </p>
+                    </div>
+
+                </button>
+
+                <div id="boton1" class="collapse">
+                    <div class="card-body">
+                        *Respuesta de la pregunta #1*
+                    </div>
+                </div>
+
+                <button class="rounded col-12 mb-2" data-toggle="collapse" data-target="#boton2" aria-expanded="true" aria-controls="collapseOne">
+
+                    <div class="d-flex align-items-center">
+                        <div class="mr-2 mas d-flex align-items-center justify-content-center"><i class="c fas fa-plus"></i></div>
+                        <p> PREGUNTA #2 </p>
+                    </div>
+
+                </button>
+
+                <div id="boton2" class="collapse">
+                    <div class="card-body">
+                        *Respuesta de la pregunta #2*
+                    </div>
+                </div>
+
+
+                <button class="rounded col-12 mb-2" data-toggle="collapse" data-target="#boton3" aria-expanded="true" aria-controls="collapseOne">
+
+                    <div class="d-flex align-items-center">
+                        <div class="mr-2 mas d-flex align-items-center justify-content-center"><i class="c fas fa-plus"></i></div>
+                        <p> PREGUNTA #3 </p>
+                    </div>
+
+                </button>
+
+                <div id="boton3" class="collapse">
+                    <div class="card-body">
+                        *Respuesta de la pregunta #3*
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <!-- ACORDEON CON PREGUNTAS -->
+
+
+            <!-- BOTON -->
+            <div class="container-fluid d-flex align-items-center justify-content-center mt-3">
+                <a href="#" class="btn boton blanco">
+                    <p class="contenido_boton"> Ver todas las preguntas </p>
+                    <div class="c1"></div>
+                    <div class="c2"></div>
+                    <div class="c3"></div>
+                </a>
+            </div>
+            <!-- BOTON -->
+
+        </div>
+        <!-- SECCION DE PREGUNTAS -->
+
+    </section>
+    <!-- SECCION FAQ -->
+
+    <!-- BANNER -->
+    <section class="mt-5">
+        <img class="w-100" src="images/banner.webp" alt="">
+    </section>
+    <!-- BANNER -->
+
+    <!-- NOTICIAS Y TWITTER FEED -->
+    <section id="noticias_y_twitter_feed" class="py-5">
+
+        <div class="container d-flex">
+
+            <!-- NOTICIAS -->
+            <div class="col-6">
+
+                <h2 class="text-center  font-weight-bold mb-3"> NOTICIAS </h2>
+
+                <!-- NOTICIA 1 -->
+                <a href="#" class="noticia d-flex align-items-center justify-content-center mb-2">
+
+                    <div class="d_m d-flex flex-column align-items-center justify-content-center bg_m col-3 h-100">
+                        <p class="text-center blanco dia"> 27 </p>
+                        <p class="text-center blanco mes"> ENERO </p>
+                    </div>
+
+                    <div class="col-9 h-100 bg_blanco d-flex align-items-start justify-content-center flex-column h-100">
+                        <p> <span class="m"> Categoria </span> <span class="text-muted">/ 27/01/2019</span> </p>
+                        <p class="font-weight-bold"> *Descripción de Noticia* </p>
+                    </div>
+                </a>
+                <!-- NOTICIA 1 -->
+
+                <!-- NOTICIA 2 -->
+                <a href="#" class="noticia d-flex align-items-center justify-content-center mb-2">
+
+                    <div class="d_m d-flex flex-column align-items-center justify-content-center bg_m col-3 h-100">
+                        <p class="text-center blanco dia"> 02 </p>
+                        <p class="text-center blanco mes"> FEBRERO </p>
+                    </div>
+
+                    <div class="col-9 h-100 bg_blanco d-flex align-items-start justify-content-center flex-column h-100">
+                        <p> <span class="m"> Categoria </span> <span class="text-muted">/ 27/01/2019</span> </p>
+                        <p class="font-weight-bold"> *Descripción de Noticia* </p>
+                    </div>
+                </a>
+                <!-- NOTICIA 2 -->
+
+                <!-- NOTICIA 3 -->
+                <a href="#" class="noticia d-flex align-items-center justify-content-center mb-2">
+
+                    <div class="d_m d-flex flex-column align-items-center justify-content-center bg_m col-3 h-100">
+                        <p class="text-center blanco dia"> 08 </p>
+                        <p class="text-center blanco mes"> NOV </p>
+                    </div>
+
+                    <div class="col-9 h-100 bg_blanco d-flex align-items-start justify-content-center flex-column h-100">
+                        <p> <span class="m"> Categoria </span> <span class="text-muted">/ 27/01/2019</span> </p>
+                        <p class="font-weight-bold"> *Descripción de Noticia* </p>
+                    </div>
+                </a>
+                <!-- NOTICIA 3 -->
+
+            </div>
+            <!-- NOTICIAS -->
+
+            <!-- INSTAGRAM FEED  -->
+            <div class="col-6 d-flex align-items-center justify-content-center">
+                <h2> *Instagram feed aquí* </h2>
+            </div>
+            <!-- INSTAGRAM FEED  -->
+        </div>
+
+    </section>
+    <!-- NOTICIAS Y TWITTER FEED -->
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section id="formulario_contacto" class="mt-5">
+
+        <div class="d-flex container">
+
+            <div class="contenedor col-6 d-flex flex-column align-items-center justify-content-center bg_c">
+
+                <h2 class="font-weight-bold mb-3 blanco f50"> Nuestros Contactos </h2>
+
+                <!-- NUESTRAS OFICINAS -->
+                <div class="d-flex align-items-center jutify-content-center mb-3">
+
+                    <div class="mr-3">
+                        <i class="blanco icono fas fa-map-marker-alt"> </i>
+                    </div>
+
+                    <div>
+                        <p class="font-weight-bold"> NUESTRAS OFICINAS </p>
+                        <p> Carrera 12.No. 11-88 Funza C/marca </p>
+                    </div>
+
+                </div>
+                <!-- NUESTRAS OFICINAS -->
+
+                <!-- TELEFONOS -->
+                <div class="d-flex align-items-center jutify-content-center mb-3">
+
+                    <div class="mr-3">
+                        <i class="blanco icono fas fa-phone"> </i>
+                    </div>
+
+                    <div>
+                        <p class="font-weight-bold"> TELEFONOS </p>
+                        <p> Carrera 12.No. 11-88 Funza C/marca </p>
+                    </div>
+
+                </div>
+                <!-- TELEFONOS -->
+
+            </div>
+
+            <div class="col-6">
+
+            </div>
 
 
         </div>
 
     </section>
-    <!-- SECCION DESCARGAR FORMULARIOS -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- FORMULARIO DE CONTACTO -->
 
 
 
@@ -359,6 +733,7 @@ $page = "Inicio";
     <?php include 'layout/archivos_footer.php' ?>
 
 
+    <script src="js/reemplazar_iconos.js"></script>
 
 </body>
 
