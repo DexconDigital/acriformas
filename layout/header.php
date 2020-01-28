@@ -5,46 +5,48 @@
         <section>
             <nav class="navbar navbar-expand-lg navbar-light">
 
-                <div class="imagen_logo"> <img src="images/acriformas_full color.png" alt=""> </div>
+                <a href="index.php" class="imagen_logo"> <img src="images/acriformas_full color.png" alt=""> </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                <!-- MENU -->
                 <div class="flex-column align-items-lg-end align-items-xl-end align-items-start collapse navbar-collapse" id="navbarSupportedContent">
 
-                    <ul id="menu" class="navbar-nav m-auto">
+                    <!-- MENU -->
+                    <ul id="menu" class="navbar-nav m-auto ">
 
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#"> Inicio </a>
+                        <li class="nav-item">
+                            <a class="nav-link <?php if($page == 'Inicio'){ echo 'activo';} ?>" href="index.php"> Inicio </a>
                         </li>
 
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#"> Quienes Somos </a>
+                        <li class="nav-item">
+                            <a class="nav-link <?php if($page == 'Quiénes Somos'){ echo 'activo';} ?>" href="quienes_somos.php"> Quienes Somos </a>
                         </li>
 
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#"> Servicios </a>
+                        <li class="nav-item">
+                            <a class="nav-link <?php if($page == 'Servicios'){ echo 'activo';} ?>" href="servicios.php"> Servicios </a>
                         </li>
 
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#"> Proyectos </a>
+                        <li class="nav-item">
+                            <a class="nav-link <?php if($page == 'Proyectos'){ echo 'activo';} ?>" href="proyectos.php"> Proyectos </a>
                         </li>
 
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#"> Clientes </a>
+                        <li class="nav-item">
+                            <a class="nav-link <?php if($page == 'Clientes'){ echo 'activo';} ?>" href="clientes.php"> Clientes </a>
                         </li>
 
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#"> Contactenos </a>
+                        <li class="nav-item">
+                            <a class="nav-link <?php if($page == 'Contactenos'){ echo 'activo';} ?>" href="contactenos.php"> Contactenos </a>
                         </li>
 
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#"> Noticias </a>
+                        <li class="nav-item">
+                            <a class="nav-link <?php if($page == 'Noticias'){ echo 'activo';} ?>" href="noticias.php"> Noticias </a>
                         </li>
 
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#"> FAQ </a>
+                        <li class="nav-item">
+                            <a class="nav-link <?php if($page == 'FAQ'){ echo 'activo';} ?>" href="faq.php"> FAQ </a>
                         </li>
 
                         <!-- <li class="nav-item dropdown">
@@ -60,6 +62,8 @@
                                 </li> -->
 
                     </ul>
+                    <!-- MENU -->
+
 
                     <!-- REDES SOCIALES Y CONTACTO -->
                     <section id="redes_contacto" class="d-flex justify-content-end mr-5">
@@ -103,14 +107,12 @@
                     </section>
                     <!-- REDES SOCIALES Y CONTACTO -->
                 </div>
+                <!-- MENU -->
+
 
             </nav>
         </section>
         <!-- LOGO Y MENU -->
-
-
-
-
 
 
     </section>

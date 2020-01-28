@@ -195,15 +195,21 @@ header {
 
     #menu {
 
+        .activo {   
+            color: $c;
+        }
+
         a {
             color: transparent;
-            background: linear-gradient($verde,$k, $verde);
+            background: linear-gradient(95deg,green,black);
             -webkit-background-clip: text;
             transition: all 250ms;
             // font-size: 40px;
 
+           
+
             &:hover {
-                color: $verde;
+                color: $m;
             }
         }
 
@@ -326,13 +332,9 @@ header {
             transition: all 250ms ease-in-out;
 
             &:hover {
-
                 transform: scale(1.1);
-                // border-bottom: -5px;
-  
             }
         }
-
 
         .icono1 {
             border-color: $k;
@@ -344,8 +346,6 @@ header {
             }
         }
         
-     
-
         .icono2 {
             border-color: $y;
 
@@ -831,16 +831,198 @@ header {
 
 #formulario_contacto {
 
-    .contenedor {
+    height: 400px;
 
-        height: 300px;
+    .direccion_y_telefonos {
+
+        a {
+            transition: all 250ms;
+            color: black;
+
+            .iconos {
+                transition: all 250ms;
+            }
+
+            &:hover {
+
+                color: $m;
+
+                .iconos {
+                    color: $m;
+                }
+            }
+        }
 
         .icono {
             font-size: 45px;
         }
+
+        .telefonos {
+            margin-left: -32%;
+        }
+    }
+
+    .formulario {
+        background-color: #F4F6F9;
+
+        .color_a_contacto {
+            color: $c; 
+            transition: all 250ms;
+
+            &:hover {
+                color: $m;
+            }
+        }
     }
 
 }
+
+#mapa {
+
+    width: 100%;
+    height: 45vh;
+    margin-bottom: -6px
+
+}
+
+footer {
+
+    padding: 20px 0;
+    background-color: #1D1D1D;
+
+    a{
+        color: $verde; 
+        transition: all 250ms;
+
+        &:hover {
+            color: $c;
+        }
+    }
+
+    .logo {
+
+        width: 360px;
+        height: 100px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .circulo {
+
+        padding: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 30px;
+        background-color: $verde;
+        color: white;
+        transition: all 250ms;
+
+        &:hover {
+            background-color: white;
+            color: $verde;
+        }
+
+    }
+
+    .cuadro {
+        background-color: white; 
+        width: 100%;
+    }
+
+}
+
+.subir {
+    // COLOR DE FONDO
+    background-color: white;
+    // COLOR DE FONDO
+
+    // COLOR DEL ICONO
+    color: $verde;
+    // COLOR DEL ICONO
+
+    border: 3px solid $verde;
+    display: none;
+    transition: all 200ms ease-in-out;
+    padding: 5px;
+    font-size: 40px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 47px;
+    width: 50px!important;
+    height: 50px!important;
+    border-radius: 25px;
+    right: 20px;
+    -webkit-box-shadow: -1px 1px 5px 1px grey;
+    box-shadow: -1px 1px 5px 1px grey;
+    z-index: 1000;
+    overflow: hidden;
+
+    .icono {
+        // TIEMPO DE TRANSICION DEL ICONO
+        transition: all 250ms;
+       // TIEMPO DE TRANSICION DEL ICONO
+        left: 0;
+        top: 0;
+    }
+
+    .efecto {
+        border-radius: 25px;
+        background-color: white;
+        opacity: 0;
+        // TIEMPO DE TRANSICION DEL FONDO
+        transition: all 250ms ease-in-out;
+        // TIEMPO DE TRANSICION DEL FONDO
+        top: 0;
+        left: -25px;
+        transform: scale(0);
+
+    }
+
+    &:hover {
+
+        border: 3px solid white;
+
+        .efecto {
+            // COLOR DE FONDO CON HOVER
+            background-color: $verde;
+            // COLOR DE FONDO CON HOVER
+            height: 58px;
+            padding: 33px;
+            opacity: 1;
+            transform: scale(2);
+        }
+
+        .icono {
+            // COLOR DEL ICONO CON HOVER
+            color: white;
+            // COLOR DEL ICONO CON HOVER
+            animation: icono 300ms ease-in-out;
+        }
+
+        @keyframes icono {
+            0% {
+                filter: none;
+            }
+
+            50% {
+                filter: blur(10px);
+            }
+
+            100% {
+                filter: none;
+            }
+
+        }
+       
+        
+    }
+}
+
+
 
 
 

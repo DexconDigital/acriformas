@@ -1,6 +1,6 @@
 <?php include 'variables/variables.php';
 
-$page = "n";
+$page = "Quiénes Somos";
 $nombre_inmobiliaria = "Acriformas"
 ?>
 <!DOCTYPE html>
@@ -26,14 +26,13 @@ $nombre_inmobiliaria = "Acriformas"
 
 
 
+<div style="margin-top: 1000px;"></div>
 
 
 
 
     <!-- FOOTER -->
-    <footer class="mt-5">
-        <?php include 'layout/footer.php' ?>
-    </footer>
+    <?php include 'layout/footer.php' ?>
     <!-- FOOTER -->
 
     <?php include 'layout/archivos_footer.php' ?>

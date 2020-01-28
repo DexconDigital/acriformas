@@ -4,6 +4,14 @@
 
 
 <!-- ESTILOS -->
+
+
+p,h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin:0;
+}
+
+
 .subir {
     display: none;
     transition: all 200ms ease-in-out;
@@ -24,7 +32,9 @@
     }
 }
 
-<!-- ESTILOS -->
+<!-- ESTILOS -->    
+
+
 
 
 

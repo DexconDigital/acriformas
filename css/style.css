@@ -12000,18 +12000,19 @@ header {
   header .imagen_logo img {
     width: 360px;
     height: 100px; }
+  header #menu .activo {
+    color: #00AFEF; }
   header #menu a {
     color: transparent;
-    background: -webkit-gradient(linear, left top, left bottom, from(#6FB635), color-stop(#373435), to(#6FB635));
-    background: -webkit-linear-gradient(#6FB635, #373435, #6FB635);
-    background: -o-linear-gradient(#6FB635, #373435, #6FB635);
-    background: linear-gradient(#6FB635, #373435, #6FB635);
+    background: -webkit-linear-gradient(355deg, green, black);
+    background: -o-linear-gradient(355deg, green, black);
+    background: linear-gradient(95deg, green, black);
     -webkit-background-clip: text;
     -webkit-transition: all 250ms;
     -o-transition: all 250ms;
     transition: all 250ms; }
     header #menu a:hover {
-      color: #6FB635; }
+      color: #EC268F; }
   header #redes_contacto .correo .icono {
     -webkit-transition: all 250ms;
     -o-transition: all 250ms;
@@ -12381,7 +12382,146 @@ header {
         -ms-transform: scale(1.1);
         transform: scale(1.1); }
 
-#formulario_contacto .contenedor {
-  height: 300px; }
-  #formulario_contacto .contenedor .icono {
+#formulario_contacto {
+  height: 400px; }
+  #formulario_contacto .direccion_y_telefonos a {
+    -webkit-transition: all 250ms;
+    -o-transition: all 250ms;
+    transition: all 250ms;
+    color: black; }
+    #formulario_contacto .direccion_y_telefonos a .iconos {
+      -webkit-transition: all 250ms;
+      -o-transition: all 250ms;
+      transition: all 250ms; }
+    #formulario_contacto .direccion_y_telefonos a:hover {
+      color: #EC268F; }
+      #formulario_contacto .direccion_y_telefonos a:hover .iconos {
+        color: #EC268F; }
+  #formulario_contacto .direccion_y_telefonos .icono {
     font-size: 45px; }
+  #formulario_contacto .direccion_y_telefonos .telefonos {
+    margin-left: -32%; }
+  #formulario_contacto .formulario {
+    background-color: #F4F6F9; }
+    #formulario_contacto .formulario .color_a_contacto {
+      color: #00AFEF;
+      -webkit-transition: all 250ms;
+      -o-transition: all 250ms;
+      transition: all 250ms; }
+      #formulario_contacto .formulario .color_a_contacto:hover {
+        color: #EC268F; }
+
+#mapa {
+  width: 100%;
+  height: 45vh;
+  margin-bottom: -6px; }
+
+footer {
+  padding: 20px 0;
+  background-color: #1D1D1D; }
+  footer a {
+    color: #6FB635;
+    -webkit-transition: all 250ms;
+    -o-transition: all 250ms;
+    transition: all 250ms; }
+    footer a:hover {
+      color: #00AFEF; }
+  footer .logo {
+    width: 360px;
+    height: 100px; }
+    footer .logo img {
+      width: 100%;
+      height: 100%; }
+  footer .circulo {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 30px;
+    background-color: #6FB635;
+    color: white;
+    -webkit-transition: all 250ms;
+    -o-transition: all 250ms;
+    transition: all 250ms; }
+    footer .circulo:hover {
+      background-color: white;
+      color: #6FB635; }
+  footer .cuadro {
+    background-color: white;
+    width: 100%; }
+
+.subir {
+  background-color: white;
+  color: #6FB635;
+  border: 3px solid #6FB635;
+  display: none;
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  padding: 5px;
+  font-size: 40px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 47px;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 25px;
+  right: 20px;
+  -webkit-box-shadow: -1px 1px 5px 1px grey;
+  box-shadow: -1px 1px 5px 1px grey;
+  z-index: 1000;
+  overflow: hidden; }
+  .subir .icono {
+    -webkit-transition: all 250ms;
+    -o-transition: all 250ms;
+    transition: all 250ms;
+    left: 0;
+    top: 0; }
+  .subir .efecto {
+    border-radius: 25px;
+    background-color: white;
+    opacity: 0;
+    -webkit-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    top: 0;
+    left: -25px;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0); }
+  .subir:hover {
+    border: 3px solid white; }
+    .subir:hover .efecto {
+      background-color: #6FB635;
+      height: 58px;
+      padding: 33px;
+      opacity: 1;
+      -webkit-transform: scale(2);
+      -ms-transform: scale(2);
+      transform: scale(2); }
+    .subir:hover .icono {
+      color: white;
+      -webkit-animation: icono 300ms ease-in-out;
+      animation: icono 300ms ease-in-out; }
+
+@-webkit-keyframes icono {
+  0% {
+    -webkit-filter: none;
+    filter: none; }
+  50% {
+    -webkit-filter: blur(10px);
+    filter: blur(10px); }
+  100% {
+    -webkit-filter: none;
+    filter: none; } }
+
+@keyframes icono {
+  0% {
+    -webkit-filter: none;
+    filter: none; }
+  50% {
+    -webkit-filter: blur(10px);
+    filter: blur(10px); }
+  100% {
+    -webkit-filter: none;
+    filter: none; } }

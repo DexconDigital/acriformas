@@ -1,6 +1,6 @@
 <?php include 'variables/variables.php';
 
-$page = "n";
+$page = "Inicio";
 $nombre_inmobiliaria = "Acriformas"
 ?>
 <!DOCTYPE html>
@@ -17,11 +17,10 @@ $nombre_inmobiliaria = "Acriformas"
 
 <body>
 
-    <!-- HEADER -->
-    <header>
-        <?php include 'layout/header.php' ?>
-    </header>
-    <!-- HEADER -->
+
+    <i id="icono" style="font-size: 50px" class="fab fa-whatsapp m-5"> </i>
+
+    <button id="boton"> sdfsdf </button>
 
 
 
@@ -30,11 +29,8 @@ $nombre_inmobiliaria = "Acriformas"
 
 
 
-    <!-- FOOTER -->
-    <footer class="mt-5">
-        <?php include 'layout/footer.php' ?>
-    </footer>
-    <!-- FOOTER -->
+
+
 
     <?php include 'layout/archivos_footer.php' ?>
 
