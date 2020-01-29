@@ -18,9 +18,7 @@ $nombre_inmobiliaria = "Acriformas"
 <body>
 
     <!-- HEADER -->
-    <header>
         <?php include 'layout/header.php' ?>
-    </header>
     <!-- HEADER -->
 
 
@@ -31,9 +29,7 @@ $nombre_inmobiliaria = "Acriformas"
 
 
     <!-- FOOTER -->
-    <footer class="mt-5">
         <?php include 'layout/footer.php' ?>
-    </footer>
     <!-- FOOTER -->
 
     <?php include 'layout/archivos_footer.php' ?>

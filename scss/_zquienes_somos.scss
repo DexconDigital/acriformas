@@ -1,0 +1,48 @@
+#banner {
+    height: 200px;
+
+    .fondo_negro {
+
+        background-color: rgba(0, 0, 0, 0.7);
+
+    }
+
+}
+
+#n_historia {
+
+    .contenido {
+        background-color: #F4F6F9;
+    }
+
+}
+
+#escogernos {
+
+    background-color: #271F75;
+
+    .contenido {
+
+        height: 300px;
+
+       .activo {
+           color: red;
+       }
+
+        h3 {
+
+            cursor: pointer;
+            transition: all 250ms;
+
+            &:hover {
+                color: $y;
+            }
+        }
+
+    }
+        
+}
+
+.activo {
+    color:$y;
+}

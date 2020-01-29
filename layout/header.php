@@ -22,7 +22,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link <?php if($page == 'Quiénes Somos'){ echo 'activo';} ?>" href="quienes_somos.php"> Quienes Somos </a>
+                            <a class="nav-link <?php if($page == 'Quiénes Somos'){ echo 'activo';} ?>" href="quienes_somos.php"> Quiénes Somos </a>
                         </li>
 
                         <li class="nav-item">

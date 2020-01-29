@@ -11914,7 +11914,7 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: #373435; }
 
 .margen_top {
-  margin-top: 116px; }
+  margin-top: 130px; }
 
 a {
   color: black; }
@@ -12525,3 +12525,28 @@ footer {
   100% {
     -webkit-filter: none;
     filter: none; } }
+
+#banner {
+  height: 200px; }
+  #banner .fondo_negro {
+    background-color: rgba(0, 0, 0, 0.7); }
+
+#n_historia .contenido {
+  background-color: #F4F6F9; }
+
+#escogernos {
+  background-color: #271F75; }
+  #escogernos .contenido {
+    height: 300px; }
+    #escogernos .contenido .activo {
+      color: red; }
+    #escogernos .contenido h3 {
+      cursor: pointer;
+      -webkit-transition: all 250ms;
+      -o-transition: all 250ms;
+      transition: all 250ms; }
+      #escogernos .contenido h3:hover {
+        color: #FFF212; }
+
+.activo {
+  color: #FFF212; }
