@@ -519,48 +519,48 @@ $page = "Inicio";
             <!-- ACORDEON CON PREGUNTAS -->
             <div class="accordion" id="accordionExample">
 
-                <button id="botonnn" class="rounded col-12 my-2" data-toggle="collapse" data-target="#boton1" aria-expanded="true" aria-controls="collapseOne">
+                <button id="boton1" class="rounded col-12 my-2" data-toggle="collapse" data-target="#p1" aria-expanded="true" aria-controls="collapseOne">
 
                     <div class="d-flex align-items-center">
                         <!-- <i class="fas fa-window-minimize"></i> -->
-                        <div class="mr-2 mas d-flex align-items-center justify-content-center"><i id="icono" class="c fas fa-plus"></i></div>
+                        <div class="mr-2 mas d-flex align-items-center justify-content-center"><i id="icono1" class="c fas fa-plus"></i></div>
                         <p> PREGUNTA #1 </p>
                     </div>
 
                 </button>
 
-                <div id="boton1" class="collapse">
+                <div id="p1" class="collapse">
                     <div class="card-body">
                         *Respuesta de la pregunta #1*
                     </div>
                 </div>
 
-                <button class="rounded col-12 mb-2" data-toggle="collapse" data-target="#boton2" aria-expanded="true" aria-controls="collapseOne">
+                <button id="boton2" class="rounded col-12 mb-2" data-toggle="collapse" data-target="#p2" aria-expanded="true" aria-controls="collapseOne">
 
                     <div class="d-flex align-items-center">
-                        <div class="mr-2 mas d-flex align-items-center justify-content-center"><i class="c fas fa-plus"></i></div>
+                        <div class="mr-2 mas d-flex align-items-center justify-content-center"><i id="icono2" class="c fas fa-plus"></i></div>
                         <p> PREGUNTA #2 </p>
                     </div>
 
                 </button>
 
-                <div id="boton2" class="collapse">
+                <div id="p2" class="collapse">
                     <div class="card-body">
                         *Respuesta de la pregunta #2*
                     </div>
                 </div>
 
 
-                <button class="rounded col-12 mb-2" data-toggle="collapse" data-target="#boton3" aria-expanded="true" aria-controls="collapseOne">
+                <button id="boton3" class="rounded col-12 mb-2" data-toggle="collapse" data-target="#p3" aria-expanded="true" aria-controls="collapseOne">
 
                     <div class="d-flex align-items-center">
-                        <div class="mr-2 mas d-flex align-items-center justify-content-center"><i class="c fas fa-plus"></i></div>
+                        <div class="mr-2 mas d-flex align-items-center justify-content-center"><i id="icono3" class="c fas fa-plus"></i></div>
                         <p> PREGUNTA #3 </p>
                     </div>
 
                 </button>
 
-                <div id="boton3" class="collapse">
+                <div id="p3" class="collapse">
                     <div class="card-body">
                         *Respuesta de la pregunta #3*
                     </div>
@@ -777,6 +777,8 @@ $page = "Inicio";
 
 
     <?php include 'layout/archivos_footer.php' ?>
+
+    <script src="js/botones_faq.js"></script>
 
 </body>
 

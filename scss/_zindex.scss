@@ -753,11 +753,23 @@ header {
 
 #seccion_faq {
 
+   
+
     .progress {
         height: 5px;
     }
 
     .accordion {
+
+        #icono1,#icono2,#icono1 {
+            transition: all 250ms;
+        }
+        
+
+        .activo {
+            background-color: $c;
+            color: black;
+        }
 
         .mas {
 

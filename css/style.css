@@ -12341,6 +12341,15 @@ header {
 #seccion_faq .progress {
   height: 5px; }
 
+#seccion_faq .accordion #icono1, #seccion_faq .accordion #icono2, #seccion_faq .accordion #icono1 {
+  -webkit-transition: all 250ms;
+  -o-transition: all 250ms;
+  transition: all 250ms; }
+
+#seccion_faq .accordion .activo {
+  background-color: #00AFEF;
+  color: black; }
+
 #seccion_faq .accordion .mas {
   background-color: white;
   width: 35px;

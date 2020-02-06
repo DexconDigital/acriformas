@@ -74,7 +74,7 @@ $nombre_inmobiliaria = "Acriformas"
             <!-- ACORDEON CON PREGUNTAS -->
             <div class="accordion" id="accordionExample">
 
-                <button id="botonnn" class="button1 rounded col-12 my-2" data-toggle="collapse" data-target="#boton11" aria-expanded="true" aria-controls="collapseOne">
+                <button id="boton1" class="button1 rounded col-12 my-2" data-toggle="collapse" data-target="#p1" aria-expanded="true" aria-controls="collapseOne">
 
                     <div class="d-flex align-items-center">
                         <!-- <i class="fas fa-window-minimize"></i> -->
@@ -84,14 +84,14 @@ $nombre_inmobiliaria = "Acriformas"
 
                 </button>
 
-                <div id="boton11" class="collapse">
+                <div id="p1" class="collapse">
                     <div class="card-body">
                         *Respuesta de la pregunta #1*
                     </div>
                 </div>
 
                 
-                <button class="button2 rounded col-12 mb-2" data-toggle="collapse" data-target="#boton22" aria-expanded="true" aria-controls="collapseOne">
+                <button id="boton2" class="button2 rounded col-12 mb-2" data-toggle="collapse" data-target="#p2" aria-expanded="true" aria-controls="collapseOne">
 
                     <div class="d-flex align-items-center">
                         <div class="mr-2 mas d-flex align-items-center justify-content-center"><i class="c fas fa-plus"></i></div>
@@ -100,14 +100,14 @@ $nombre_inmobiliaria = "Acriformas"
 
                 </button>
 
-                <div id="boton22" class="collapse">
+                <div id="p2" class="collapse">
                     <div class="card-body">
                         *Respuesta de la pregunta #2*
                     </div>
                 </div>
 
 
-                <button class="button3 col-12 mb-2" data-toggle="collapse" data-target="#boton33" aria-expanded="true" aria-controls="collapseOne">
+                <button id="boton3" class="button3 col-12 mb-2" data-toggle="collapse" data-target="#p3" aria-expanded="true" aria-controls="collapseOne">
 
                     <div class="d-flex align-items-center">
                         <div class="mr-2 mas d-flex align-items-center justify-content-center"><i class="c fas fa-plus"></i></div>
@@ -116,7 +116,7 @@ $nombre_inmobiliaria = "Acriformas"
 
                 </button>
 
-                <div id="boton33" class="collapse">
+                <div id="p3" class="collapse">
                     <div class="card-body">
                         *Respuesta de la pregunta #3*
                     </div>
@@ -125,19 +125,6 @@ $nombre_inmobiliaria = "Acriformas"
 
             </div>
             <!-- ACORDEON CON PREGUNTAS -->
-
-
-            <!-- BOTON -->
-            <div class="container-fluid d-flex align-items-center justify-content-center mt-3">
-                <a href="#" class="btn boton blanco">
-                    <p class="contenido_boton"> Ver todas las preguntas </p>
-                    <div class="c1"></div>
-                    <div class="c2"></div>
-                    <div class="c3"></div>
-                </a>
-            </div>
-            <!-- BOTON -->
-
         </div>
         <!-- SECCION DE PREGUNTAS -->
 
@@ -166,24 +153,8 @@ $nombre_inmobiliaria = "Acriformas"
 
 
     <script>
-        $(document).ready(function() {
-
-
-            $("#accordionExample").on("click", ".button1", function() {
-
-
-                if ($("#boton11").className == "collapse show") {
-
-                    $(".button1").addClass("activobtn");
-
-                } else {
-                    $(".button1").removeClass("activobtn");
-                }
-
-            });
-
-
-        });
+       
+       boton1 = document.getElementById('');
 
     </script>
 
