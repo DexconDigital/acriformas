@@ -13,23 +13,7 @@ $nombre_inmobiliaria = "Acriformas"
     <?php include 'layout/archivos_header.php' ?>
 
     <title> <?php echo $page . ' | ' . $nombre_inmobiliaria ?> </title>
-    <style>
-/* Style the buttons */
-.btn {
-  border: none;
-  outline: none;
-  padding: 10px 16px;
-  background-color: #f1f1f1;
-  cursor: pointer;
-  font-size: 18px;
-}
 
-/* Style the active class, and buttons on mouse-over */
-.active, .btn:hover {
-  background-color: #666;
-  color: white;
-}
-</style>
 </head>
 
 <body>
@@ -85,11 +69,11 @@ $nombre_inmobiliaria = "Acriformas"
     <!-- NUESTRA HISTORIA -->
 
     <!-- ESCOGERNOS -->
-    <section id="escogernos" class="mt-5">
+    <section id="escogernos" class="mt-5 py-5">
 
         <div class="container">
 
-            <h4 class="y text-center pt-5 pb-3"> ACRIFORMAS PUBLICIDAD </h4>
+            <h4 class="y text-center pb-3"> ACRIFORMAS PUBLICIDAD </h4>
 
             <h2 class="blanco font-weight-bold text-center mb-5"> ¿POR QUÉ ESCOGERNOS? </h2>
 
@@ -102,37 +86,37 @@ $nombre_inmobiliaria = "Acriformas"
                     <div class="accordion" id="accordionExample">
 
                         <div class="my-3">
-                            <h3 class="bot font-weight-bold activo blanco" data-toggle="collapse" data-target="#uno">
+                            <h3 class="uno font-weight-bold blanco activo" data-toggle="collapse" data-target="#uno">
                                 Promesa de Valor
                             </h3>
 
                             <div id="uno" class="collapse show" data-parent="#accordionExample">
-                                <p class="blanco">
-                                    *Contenido promesa de valor*
+                                <p class="blanco mt-2">
+                                    Satisfacer las necesidades de nuestros clientes aportando el asesoramiento necesario para darle forma a tus ideas.
                                 </p>
                             </div>
                         </div>
 
                         <div class="my-3">
-                            <h3 class="bot font-weight-bold blanco" data-toggle="collapse" data-target="#dos">
+                            <h3 class="dos font-weight-bold blanco" data-toggle="collapse" data-target="#dos">
                                 Misión
                             </h3>
 
                             <div id="dos" class="collapse" data-parent="#accordionExample">
-                                <p class="blanco">
-                                    *Contenido promesa de Visión*
+                                <p class="blanco mt-2">
+                                    “Le damos forma a tus ideas para crear las mejores soluciones publicitarias” .
                                 </p>
                             </div>
                         </div>
 
                         <div class="my-3">
-                            <h3 class="bot font-weight-bold blanco" data-toggle="collapse" data-target="#tres">
+                            <h3 class="tres font-weight-bold blanco" data-toggle="collapse" data-target="#tres">
                                 Visión
                             </h3>
 
                             <div id="tres" class="collapse" data-parent="#accordionExample">
-                                <p class="blanco">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                <p class="blanco mt-2">
+                                    “Ser la compañía de soluciones publicitarias referente del mercado regional”.
                                 </p>
                             </div>
                         </div>
@@ -163,6 +147,70 @@ $nombre_inmobiliaria = "Acriformas"
     </section>
     <!-- ESCOGERNOS -->
 
+    <!-- VALORES CORPORATIVOS -->
+    <section id="valores_corporativos" class="container my-5 d-flex align-items-center">
+
+        <div class="col-6">
+            <img src="images/no_image.png" alt="">
+        </div>
+
+        <div class="col-6">
+            <h2 class="mb-2 text-center font-weight-bold"> VALORES CORPORATIVOS </h2>
+            <p> Juntos, hacemos grandes cosas. Los valores corporativos de nuestra
+                compañía guían la forma en la que trabajamos en los mercados.
+            </p>
+
+            <br>
+
+            <p> El conocimiento basado en la innovación creativa reemplaza la publicidad
+                tradicional, aportando perspectivas más profundas bajo la comprensión de este
+                enfoque podemos diseñar sistemáticamente mejores soluciones para nuestros
+                clientes.
+            </p>
+
+            <p class="mt-3 font-weight-bold"> Confianza </p>
+
+            <div class="progress my-2">
+                <div class="progress-bar bg_c" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <p class="mt-3 font-weight-bold"> Puntualidad (oportunidad) </p>
+
+            <div class="progress my-2">
+                <div class="progress-bar bg_c" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <p class="mt-3 font-weight-bold"> Liderazgo </p>
+
+            <div class="progress my-2">
+                <div class="progress-bar bg_c" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <p class="mt-3 font-weight-bold"> Conocimiento </p>
+
+            <div class="progress my-2">
+                <div class="progress-bar bg_c" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <p class="mt-3 font-weight-bold"> Respeto </p>
+
+            <div class="progress my-2">
+                <div class="progress-bar bg_c" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- VALORES CORPORATIVOS -->
+
+
+
+
+
+
+
+
 
 
 
@@ -182,6 +230,8 @@ $nombre_inmobiliaria = "Acriformas"
     <!-- FOOTER -->
 
     <?php include 'layout/archivos_footer.php' ?>
+
+    <script src="js/quienes_somos.js"></script>
 
 </body>
 

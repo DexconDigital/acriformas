@@ -1,0 +1,24 @@
+#boton_de_oferta {
+
+    
+
+    .texto_oferta {
+        z-index: 300;
+        padding: 15px;     
+        background-color: $y;   
+        border-radius: 27px;
+    }
+
+    .boton_oferta {
+        
+        z-index: 400;
+        background-color: red;
+
+    }
+
+    .hover_oferta {
+        z-index: 100;
+    }
+
+
+}

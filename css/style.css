@@ -12545,17 +12545,28 @@ footer {
 
 #escogernos {
   background-color: #271F75; }
-  #escogernos .contenido {
-    height: 300px; }
-    #escogernos .contenido .activo {
-      color: red; }
-    #escogernos .contenido h3 {
-      cursor: pointer;
-      -webkit-transition: all 250ms;
-      -o-transition: all 250ms;
-      transition: all 250ms; }
-      #escogernos .contenido h3:hover {
-        color: #FFF212; }
+  #escogernos .contenido .activo {
+    color: #FFF212; }
+  #escogernos .contenido h3 {
+    cursor: pointer;
+    -webkit-transition: all 250ms;
+    -o-transition: all 250ms;
+    transition: all 250ms; }
+    #escogernos .contenido h3:hover {
+      color: #FFF212; }
 
-.activo {
-  color: #FFF212; }
+#valores_corporativos .progress {
+  height: 5px; }
+
+#boton_de_oferta .texto_oferta {
+  z-index: 300;
+  padding: 15px;
+  background-color: #FFF212;
+  border-radius: 27px; }
+
+#boton_de_oferta .boton_oferta {
+  z-index: 400;
+  background-color: red; }
+
+#boton_de_oferta .hover_oferta {
+  z-index: 100; }

@@ -23,10 +23,8 @@
 
     .contenido {
 
-        height: 300px;
-
        .activo {
-           color: red;
+           color: $y;
        }
 
         h3 {
@@ -43,6 +41,8 @@
         
 }
 
-.activo {
-    color:$y;
+#valores_corporativos {
+    .progress {
+        height: 5px;
+    }
 }
