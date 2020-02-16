@@ -43,32 +43,32 @@ $page = "Inicio";
 
             <div class="derecha p-0 col-9 d-flex flex-wrap">
 
-                <a href="#" class="p-0 d-flex flex-column align-items-center justify-content-center py-5 icono icono1 col-2">
+                <a href="s_digital.php" class="p-0 d-flex flex-column align-items-center justify-content-center py-5 icono icono1 col-2">
                     <img src="images/impresora.png" alt="">
                     <p class="text-center mt-2"> Impresión digital </p>
                 </a>
 
-                <a href="#" class="p-0 d-flex flex-column align-items-center justify-content-center py-5 icono icono2 col-2">
+                <a href="s_offset.php" class="p-0 d-flex flex-column align-items-center justify-content-center py-5 icono icono2 col-2">
                     <img src="images/impresora_g.png" alt="">
                     <p class="text-center mt-2"> Impresión offset </p>
                 </a>
 
-                <a href="#" class="p-0 d-flex flex-column align-items-center justify-content-center py-5 icono icono3 col-2">
+                <a href="s_industrial.php" class="p-0 d-flex flex-column align-items-center justify-content-center py-5 icono icono3 col-2">
                     <img src="images/folleto.png" alt="">
                     <p class="text-center mt-2"> Señalización industrial </p>
                 </a>
 
-                <a href="#" class="p-0 d-flex flex-column align-items-center justify-content-center py-5 icono icono4 col-2">
+                <a href="s_bienestar.php" class="p-0 d-flex flex-column align-items-center justify-content-center py-5 icono icono4 col-2">
                     <img src="images/circulo.png" alt="">
                     <p class="text-center mt-2"> Bienestar y eventos empresariales </p>
                 </a>
 
-                <a href="#" class="p-0 d-flex flex-column align-items-center justify-content-center py-5 icono icono5 col-2">
+                <a href="s_eventos.php" class="p-0 d-flex flex-column align-items-center justify-content-center py-5 icono icono5 col-2">
                     <img src="images/papel.png" alt="">
                     <p class="text-center mt-2"> Ferias y eventos </p>
                 </a>
 
-                <a href="#" class="p-0 d-flex flex-column align-items-center justify-content-center py-5 icono icono6 col-2">
+                <a href="s_merchandising.php" class="p-0 d-flex flex-column align-items-center justify-content-center py-5 icono icono6 col-2">
                     <img src="images/camisa.png" alt="">
                     <p class="text-center mt-2"> Merchandising</p>
                 </a>

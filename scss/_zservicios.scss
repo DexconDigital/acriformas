@@ -1,24 +1,255 @@
-#boton_de_oferta {
+#nuestra_oferta {
+    background-color: #F4F6FA;
 
-    
+    .boton_de_oferta {
 
-    .texto_oferta {
-        z-index: 300;
-        padding: 15px;     
-        background-color: $y;   
-        border-radius: 27px;
-    }
-
-    .boton_oferta {
-        
+        border: none;
+        padding: 12px;
+        border-radius: 35px;
+        -webkit-transition: all 250ms;
+        -o-transition: all 250ms;
+        transition: all 250ms;
+        overflow: hidden;
+        transition: all 250ms;
+        color: black;
         z-index: 400;
-        background-color: red;
+        padding: 15px;     
+        position: relative;
+        transition: all 250ms ease;
+    
+    
+        .texto {
+            position: relative;
+            z-index: 400;
+        }
+    
+    
+        .boton_oferta {
+    
+            background-color: $y;
+            z-index: 200;
+            position: absolute;
+            top: 0;
+            left:0;
+    
+        }
+    
+        .hover_oferta {
+            z-index: 300;
+            position: absolute;
+            background-color: $c;
+            top: 0;
+            left:0;
+            left: -100%;
+            transition: all 250ms ease;
+    
+        }
+    
+        &:hover {
+    
+        color: white;
+    
+        .hover_oferta {
+                left: 0;
+            }
+        }
+    
+    
+    }
+    
+    .boton_de_oferta_flecha_izquierda {
+    
+        border: none;
+        padding: 12px;
+        border-radius: 5px;
+        -webkit-transition: all 250ms;
+        -o-transition: all 250ms;
+        transition: all 250ms;
+        overflow: hidden;
+        transition: all 250ms;
+        color: black;
+        z-index: 400;
+        padding: 15px;     
+        position: absolute;
+        top: 50%;
+        transition: all 250ms ease;
+        left: 20px;
+        height: 50px;
+        width: 50px;
+    
+    
+        .texto {
+            position: relative;
+            z-index: 400;
+        }
+    
+    
+        .boton_oferta {
+    
+            background-color: $y;
+            z-index: 200;
+            position: absolute;
+            top: 0;
+            left:0;
+    
+        }
+    
+        .hover_oferta {
+            z-index: 300;
+            position: absolute;
+            background-color: $c;
+            top: 0;
+            left:0;
+            left: -100%;
+            transition: all 250ms ease;
+    
+        }
+    
+        &:hover {
+    
+        color: white;
+    
+        .hover_oferta {
+                left: 0;
+            }
+        }
+    
+    
+    }
+    
+    .boton_de_oferta_flecha_derecha {
+    
+        border: none;
+        padding: 12px;
+        border-radius: 5px;
+        -webkit-transition: all 250ms;
+        -o-transition: all 250ms;
+        transition: all 250ms;
+        overflow: hidden;
+        transition: all 250ms;
+        color: black;
+        z-index: 400;
+        padding: 15px;     
+        position: absolute;
+        top: 50%;
+        transition: all 250ms ease;
+        right: 20px;
+        height: 50px;
+        width: 50px;
+    
+    
+        .texto {
+            position: relative;
+            z-index: 400;
+        }
+    
+    
+        .boton_oferta {
+    
+            background-color: $y;
+            z-index: 200;
+            position: absolute;
+            top: 0;
+            left:0;
+    
+        }
+    
+        .hover_oferta {
+            z-index: 300;
+            position: absolute;
+            background-color: $c;
+            top: 0;
+            left:0;
+            left: -100%;
+            transition: all 250ms ease;
+    
+        }
+    
+        &:hover {
+    
+        color: white;
+    
+        .hover_oferta {
+                left: 0;
+            }
+        }
+    
+    
+    }
+}
 
+
+
+#servicios {
+
+    .col-4 {
+        height: 350px;
     }
 
-    .hover_oferta {
-        z-index: 100;
+    .imagen {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        background-color: #F5F6FB;
+
+        img {
+            width: 60%;
+            height: 60%;
+        }
     }
 
+    .boton_leer_mas{
+
+
+
+        .leer_mas {
+
+            overflow: hidden;
+            transition: all 250ms ease-in-out;            
+
+            &::after {
+                content: '\f067';
+                left: -20px;
+                position: relative;
+                opacity: 0;
+                transition: all 250ms ease-in-out;
+                color: black;
+            }
+
+            .icono {
+                position: relative;
+                transition: all 250ms ease-in-out;
+                left: 0;
+                opacity: 1;
+                color: black;
+
+            }        
+
+        }
+
+        &:hover {
+
+            .icono {
+                left: 20px;
+                opacity: 0;
+
+            }
+
+            .leer_mas {
+
+                color: $c;
+
+                &::after {
+                    content: '\f067';
+                    left: -8px;
+                    position: relative;
+                    opacity: 1;
+                    color: $c;
+                }
+            }
+
+        }
+
+    }
 
 }

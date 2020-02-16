@@ -38,7 +38,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link <?php if($page == 'Contactenos'){ echo 'activo';} ?>" href="contactenos.php"> Contactenos </a>
+                            <a class="nav-link <?php if($page == 'Contáctenos'){ echo 'activo';} ?>" href="contactenos.php"> Contáctenos </a>
                         </li>
 
                         <li class="nav-item">

@@ -1,6 +1,6 @@
 <?php include 'variables/variables.php';
 
-$page = "n";
+$page = "Servicios";
 $nombre_inmobiliaria = "Acriformas"
 ?>
 <!DOCTYPE html>
@@ -31,34 +31,226 @@ $nombre_inmobiliaria = "Acriformas"
         <div class="fondo_negro position-absolute w-100 h-100"> </div>
 
         <div class="position-relative d-flex align-items-center justify-content-center w-100 h-100 blanco">
-            <h1 class="font-weight-bold"> Quiénes somos </h1>
+            <h1 class="font-weight-bold"> Servicios </h1>
         </div>
 
     </section>
     <!-- BANNER -->
 
     <!-- NUUESTRA OFERTA -->
-    <section id="nuestra_oferta" class="container my-5">
-
-    <div class="col-6">
-        <h4 class="c mb-2 text-center"> Que hacemos </h4>
-        <h2 class="font-weight-bold mb-3 text-center"> NUESTRA OFERTA </h2>
-        <p class="text-center"> Creamos soluciones publicitarias y de comunicación integrales </p>
-
-        <a href="#" id="boton_de_oferta"> 
-            <p class="texto_oferta position-relative d-inline-block"> Cotiza en línea </p>
-            <div class="boton_oferta mt-3 position-absolute w-100 h-100"> </div>
-            <div class="hover_oferta position-absolute w-100 h-100"> </div>
-        </a>
-    </div>
-
-    <div class="col-6">
+    <section id="nuestra_oferta" class=" py-5">
 
 
-    </div>
+        <div class="d-flex container">
+            <!-- TEXTO COTIZA EN LINEA -->
+            <div class="col-6 d-flex align-items-center justify-content-center flex-column">
+                <h4 class="c mb-2 text-center"> Que hacemos </h4>
+                <h2 class="font-weight-bold mb-3 text-center"> NUESTRA OFERTA </h2>
+                <p class="text-center"> Creamos soluciones publicitarias y de comunicación integrales </p>
+
+                <!-- BOTON -->
+                <a class="btn boton_de_oferta mt-3" href="">
+
+                    <p class="texto"> Cotiza en línea </p>
+
+                    <div class="w-100 h-100 boton_oferta">
+
+                    </div>
+
+                    <div class="w-100 h-100 hover_oferta"></div>
+                </a>
+                <!-- BOTON -->
+
+
+            </div>
+            <!-- TEXTO COTIZA EN LINEA -->
+
+            <!-- SLIDER DE IMAGENES -->
+            <div class="col-6">
+
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/servicios1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/servicios2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/servicios3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <!-- IMAGENES -->
+
+
+
+                    <!-- BOTON IZQUIERDA -->
+                    <a class="btn boton_de_oferta_flecha_izquierda mt-3" href="#carouselExampleControls" role="button" data-slide="prev">
+
+                        <p class="texto "> <i class="fas fa-angle-left"></i> </p>
+
+                        <div class="w-100 h-100 boton_oferta">
+
+                        </div>
+
+                        <div class="w-100 h-100 hover_oferta"></div>
+                    </a>
+                    <!-- BOTON IZQUIERDA -->
+
+
+                    <!-- BOTON DERECHA -->
+                    <a class="btn boton_de_oferta_flecha_derecha mt-3" href="#carouselExampleControls" role="button" data-slide="next">
+
+                        <p class="texto "> <i class="fas fa-angle-right"></i> </p>
+
+                        <div class="w-100 h-100 boton_oferta">
+
+                        </div>
+
+                        <div class="w-100 h-100 hover_oferta"></div>
+                    </a>
+                    <!-- BOTON DERECHA -->
+
+
+                </div>
+
+            </div>
+            <!-- SLIDER DE IMAGENES -->
+
+        </div>
 
     </section>
     <!-- NUUESTRA OFERTA -->
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="d-flex flex-wrap container my-5">
+
+        <div class="my-5 col-4 d-flex flex-column align-items-center justify-content-center">
+
+            <div class="imagen d-flex align-items-center justify-content-center">
+                <img src="images/impresora.png" alt="">
+            </div>
+
+            <h2 class="font-weight-bold my-4 text-center"> IMPRESIÓN DIGITAL </h2>
+
+            <p> Trabajamos sobre sustrato como vinilo, banner, back-lite, panaflex, foam board, papel fotografico... </p>
+
+            <a class="boton_leer_mas position-relative mt-3" href="s_digital.php">
+
+                <p class="d-flex align-items-center justify-content-center leer_mas position-relative"> Leer más <i class="icono ml-2 fas fa-angle-right"> </i> </p>
+
+
+
+            </a>
+
+        </div>
+
+        <div class="my-5 col-4 d-flex flex-column align-items-center justify-content-center">
+
+            <div class="imagen d-flex align-items-center justify-content-center">
+                <img src="images/impresora_g.png" alt="">
+            </div>
+
+            <h2 class="font-weight-bold my-4 text-center"> IMPRESIÓN OFFSET </h2>
+
+            <p> Nuestro servicio de impresión offset cuenta con completas y modernas herramientas y equipos que permiten realizar proyectos... </p>
+
+            <a class="boton_leer_mas position-relative mt-3" href="s_offset.php">
+
+                <p class="d-flex align-items-center justify-content-center leer_mas position-relative"> Leer más <i class="icono ml-2 fas fa-angle-right"> </i> </p>
+
+            </a>
+
+        </div>
+
+        <div class="my-5 col-4 d-flex flex-column align-items-center justify-content-center">
+
+            <div class="imagen d-flex align-items-center justify-content-center">
+                <img src="images/papel.png" alt="">
+            </div>
+
+            <h2 class="font-weight-bold my-4 text-center"> FERIAS Y EVENTOS </h2>
+
+            <p> Diseñamos estructuras de fácil manejo y movilidad, contamos con materiales y tipos de avisos para stand tales como... </p>
+
+            <a class="boton_leer_mas position-relative mt-3" href="s_eventos.php">
+
+                <p class="d-flex align-items-center justify-content-center leer_mas position-relative"> Leer más <i class="icono ml-2 fas fa-angle-right"> </i> </p>
+
+
+
+            </a>
+
+        </div>
+
+        <div class="mb-5 col-4 d-flex flex-column align-items-center justify-content-center">
+
+            <div class="imagen d-flex align-items-center justify-content-center">
+                <img src="images/camisa.png" alt="">
+            </div>
+
+            <h2 class="font-weight-bold my-4 text-center"> MERCHANDISING </h2>
+
+            <p> Trabajamos sobre sustrato como vinilo, banner, back-lite, panaflex, foam board, papel fotografico... </p>
+
+            <a class="boton_leer_mas position-relative mt-3" href="s_merchandising.php">
+
+                <p class="d-flex align-items-center justify-content-center leer_mas position-relative"> Leer más <i class="icono ml-2 fas fa-angle-right"> </i> </p>
+
+
+
+            </a>
+
+        </div>
+
+        <div class="mb-5 col-4 d-flex flex-column align-items-center justify-content-center">
+
+            <div class="imagen d-flex align-items-center justify-content-center">
+                <img src="images/circulo.png" alt="">
+            </div>
+
+            <h2 class="font-weight-bold my-4 text-center"> BIENESTAR Y EVENTOS EMPRESARIALES </h2>
+
+            <p> Trabajamos sobre sustrato como vinilo, banner, back-lite, panaflex, foam board, papel fotografico... </p>
+
+            <a class="boton_leer_mas position-relative mt-3" href="s_bienestar.php">
+
+                <p class="d-flex align-items-center justify-content-center leer_mas position-relative"> Leer más <i class="icono ml-2 fas fa-angle-right"> </i> </p>
+
+
+
+            </a>
+
+        </div>
+
+        <div class="mb-5 col-4 d-flex flex-column align-items-center justify-content-center">
+
+            <div class="imagen d-flex align-items-center justify-content-center">
+                <img src="images/folleto.png" alt="">
+            </div>
+
+            <h2 class="font-weight-bold my-4 text-center"> SEÑALIZACIÓN INDUSTRIAL </h2>
+
+            <p> Trabajamos sobre sustrato como vinilo, banner, back-lite, panaflex, foam board, papel fotografico... </p>
+
+            <a class="boton_leer_mas position-relative mt-3" href="s_industrial.php">
+
+                <p class="d-flex align-items-center justify-content-center leer_mas position-relative"> Leer más <i class="icono ml-2 fas fa-angle-right"> </i> </p>
+
+
+
+            </a>
+
+        </div>
+
+
+
+
+
+
+    </section>
+    <!-- SERVICIOS -->
+
 
 
 
