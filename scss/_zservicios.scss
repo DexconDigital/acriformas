@@ -182,74 +182,95 @@
 
 #servicios {
 
-    .col-4 {
-        height: 350px;
-    }
+    .col-3 {
 
-    .imagen {
-        width: 110px;
-        height: 110px;
-        border-radius: 50%;
-        background-color: #F5F6FB;
 
-        img {
-            width: 60%;
-            height: 60%;
+        height: 380px;
+        transition: all 250ms;
+
+
+
+        h2 {
+            font-size: 24px;
         }
-    }
-
-    .boton_leer_mas{
-
-
-
-        .leer_mas {
-
-            overflow: hidden;
-            transition: all 250ms ease-in-out;            
-
-            &::after {
-                content: '\f067';
-                left: -20px;
-                position: relative;
-                opacity: 0;
-                transition: all 250ms ease-in-out;
-                color: black;
+    
+        .imagen {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            background-color: #F5F6FB;
+    
+            img {
+                width: 60%;
+                height: 60%;
             }
-
-            .icono {
-                position: relative;
+        }
+    
+        .boton_leer_mas{
+    
+            bottom: 0;        
+    
+    
+            .leer_mas {
+    
+                overflow: hidden;
                 transition: all 250ms ease-in-out;
-                left: 0;
-                opacity: 1;
-                color: black;
-
-            }        
-
+    
+                &::after {
+                    content: '\f067';
+                    left: -20px;
+                    font-family: iconos;
+                    font-size: 13px;
+                    position: relative;
+                    opacity: 0;
+                    transition: all 250ms ease-in-out;
+                    color: black;
+                }
+    
+                .icono {
+                    position: relative;
+                    transition: all 250ms ease-in-out;
+                    left: 0;
+                    opacity: 1;
+                    color: black;
+    
+                }        
+    
+            }
+    
+            &:hover {
+    
+                .icono {
+                    left: 20px;
+                    opacity: 0;
+    
+                }
+    
+                .leer_mas {
+    
+                    color: $c;
+    
+                    &::after {
+                        content: '\f067';
+                        left: -8px;
+                        position: relative;
+                        opacity: 1;
+                        color: $c;
+                    }
+                }
+    
+            }
+    
         }
 
         &:hover {
 
-            .icono {
-                left: 20px;
-                opacity: 0;
-
-            }
-
-            .leer_mas {
-
-                color: $c;
-
-                &::after {
-                    content: '\f067';
-                    left: -8px;
-                    position: relative;
-                    opacity: 1;
-                    color: $c;
-                }
-            }
+            box-shadow: 0px 0 20px -7px black;
 
         }
 
     }
+
+   
 
 }

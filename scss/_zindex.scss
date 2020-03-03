@@ -13,6 +13,12 @@
     src: url(../fonts/sofiapro-light.otf);
 }
 
+@font-face {
+    font-family: iconos;
+    src: url(../fonts/fa-solid-900.ttf);
+}
+
+
 
 p,a {
     font-family: SofiaPro;
@@ -1033,6 +1039,150 @@ footer {
         }
        
         
+    }
+}
+
+.subir2 {
+        // COLOR DE FONDO
+        background-color: white;
+        // COLOR DE FONDO
+    
+        // COLOR DEL ICONO
+        color: $y;
+        // COLOR DEL ICONO
+    
+        border: 3px solid $y;
+    
+        .efecto {
+
+            background-color: white;
+      
+        }
+    
+        &:hover {
+    
+            border: 3px solid white;
+    
+            .efecto {
+                // COLOR DE FONDO CON HOVER
+                background-color: $y;
+                // COLOR DE FONDO CON HOVER
+            }
+    
+            .icono {
+                // COLOR DEL ICONO CON HOVER
+                color: white;
+                // COLOR DEL ICONO CON HOVER
+            }
+
+        }
+}
+
+.subir3 {
+    // COLOR DE FONDO
+    background-color: $white;
+    // COLOR DE FONDO
+
+    // COLOR DEL ICONO
+    color: black;
+    // COLOR DEL ICONO
+
+    border: 3px solid black;
+
+    .efecto {
+
+        background-color: black;
+  
+    }
+
+    &:hover {
+
+        border: 3px solid white;
+
+        .efecto {
+            // COLOR DE FONDO CON HOVER
+            background-color: black;
+            // COLOR DE FONDO CON HOVER
+        }
+
+        .icono {
+            // COLOR DEL ICONO CON HOVER
+            color: white;
+            // COLOR DEL ICONO CON HOVER
+        }
+
+    }
+}
+
+.subir4 {
+    // COLOR DE FONDO
+    background-color: $c;
+    // COLOR DE FONDO
+
+    // COLOR DEL ICONO
+    color: white;
+    // COLOR DEL ICONO
+
+    border: 3px solid white;
+
+    .efecto {
+
+        background-color: white;
+  
+    }
+
+    &:hover {
+
+        border: 3px solid $c;
+
+        .efecto {
+            // COLOR DE FONDO CON HOVER
+            background-color: white;
+            // COLOR DE FONDO CON HOVER
+        }
+
+        .icono {
+            // COLOR DEL ICONO CON HOVER
+            color: $c;
+            // COLOR DEL ICONO CON HOVER
+        }
+
+    }
+}
+
+.subir5 {
+    // COLOR DE FONDO
+    background-color: $m;
+    // COLOR DE FONDO
+
+    // COLOR DEL ICONO
+    color: white;
+    // COLOR DEL ICONO
+
+    border: 3px solid white;
+
+    .efecto {
+
+        background-color: white;
+  
+    }
+
+    &:hover {
+
+        border: 3px solid $m;
+
+        .efecto {
+            // COLOR DE FONDO CON HOVER
+            background-color: $white;
+            // COLOR DE FONDO CON HOVER
+        }
+
+        .icono {
+            // COLOR DEL ICONO CON HOVER
+            color: $m;
+            // COLOR DEL ICONO CON HOVER
+        }
+
     }
 }
 

@@ -1,4 +1,13 @@
- <div class="subir">
+<div class="subir <?php 
+if($page == 'Quiénes Somos') { echo 'subir2'; };
+if($page == 'Servicios') { echo 'subir3'; };
+if($page == 'Proyectos') { echo 'subir4'; };
+if($page == 'Clientes') { echo 'subir5'; };
+if($page == 'Contáctenos') { echo 'subir2'; };
+if($page == 'Noticias') { echo 'subir3'; };
+if($page == 'FAQ') { echo 'subir4'; };
+?>">
+
     <div class="position-absolute w-100 h-100 efecto"></div>
     <i class="icono position-absolute w-100 h-100 fas fa-angle-up"></i>
 </div>

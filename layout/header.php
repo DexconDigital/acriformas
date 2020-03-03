@@ -18,35 +18,51 @@
                     <ul id="menu" class="navbar-nav m-auto ">
 
                         <li class="nav-item">
-                            <a class="nav-link <?php if($page == 'Inicio'){ echo 'activo';} ?>" href="index.php"> Inicio </a>
+                            <a class="nav-link <?php if ($page == 'Inicio') {
+                                                    echo 'activo';
+                                                } ?>" href="index.php"> Inicio </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link <?php if($page == 'Quiénes Somos'){ echo 'activo';} ?>" href="quienes_somos.php"> Quiénes Somos </a>
+                            <a class="nav-link <?php if ($page == 'Quiénes Somos') {
+                                                    echo 'activo';
+                                                } ?>" href="quienes_somos.php"> Quiénes Somos </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link <?php if($page == 'Servicios'){ echo 'activo';} ?>" href="servicios.php"> Servicios </a>
+                            <a class="nav-link <?php if ($page == 'Servicios') {
+                                                    echo 'activo';
+                                                } ?>" href="servicios.php"> Servicios </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link <?php if($page == 'Proyectos'){ echo 'activo';} ?>" href="proyectos.php"> Proyectos </a>
+                            <a class="nav-link <?php if ($page == 'Proyectos') {
+                                                    echo 'activo';
+                                                } ?>" href="proyectos.php"> Proyectos </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link <?php if($page == 'Clientes'){ echo 'activo';} ?>" href="clientes.php"> Clientes </a>
+                            <a class="nav-link <?php if ($page == 'Clientes') {
+                                                    echo 'activo';
+                                                } ?>" href="clientes.php"> Clientes </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link <?php if($page == 'Contáctenos'){ echo 'activo';} ?>" href="contactenos.php"> Contáctenos </a>
+                            <a class="nav-link <?php if ($page == 'Contáctenos') {
+                                                    echo 'activo';
+                                                } ?>" href="contactenos.php"> Contáctenos </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link <?php if($page == 'Noticias'){ echo 'activo';} ?>" href="noticias.php"> Noticias </a>
+                            <a class="nav-link <?php if ($page == 'Noticias') {
+                                                    echo 'activo';
+                                                } ?>" href="noticias.php"> Noticias </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link <?php if($page == 'FAQ'){ echo 'activo';} ?>" href="faq.php"> FAQ </a>
+                            <a class="nav-link <?php if ($page == 'FAQ') {
+                                                    echo 'activo';
+                                                } ?>" href="faq.php"> FAQ </a>
                         </li>
 
                         <!-- <li class="nav-item dropdown">
@@ -113,6 +129,9 @@
             </nav>
         </section>
         <!-- LOGO Y MENU -->
+
+
+
 
 
     </section>

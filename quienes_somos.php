@@ -233,6 +233,8 @@ $nombre_inmobiliaria = "Acriformas"
 
     <script src="js/quienes_somos.js"></script>
 
+
+
 </body>
 
 </html>

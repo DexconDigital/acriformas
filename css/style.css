@@ -11861,6 +11861,10 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: SofiaPro;
   src: url(../fonts/sofiapro-light.otf); }
 
+@font-face {
+  font-family: iconos;
+  src: url(../fonts/fa-solid-900.ttf); }
+
 p, a {
   font-family: SofiaPro; }
 
@@ -12535,6 +12539,58 @@ footer {
     -webkit-filter: none;
     filter: none; } }
 
+.subir2 {
+  background-color: white;
+  color: #FFF212;
+  border: 3px solid #FFF212; }
+  .subir2 .efecto {
+    background-color: white; }
+  .subir2:hover {
+    border: 3px solid white; }
+    .subir2:hover .efecto {
+      background-color: #FFF212; }
+    .subir2:hover .icono {
+      color: white; }
+
+.subir3 {
+  background-color: #fff;
+  color: black;
+  border: 3px solid black; }
+  .subir3 .efecto {
+    background-color: black; }
+  .subir3:hover {
+    border: 3px solid white; }
+    .subir3:hover .efecto {
+      background-color: black; }
+    .subir3:hover .icono {
+      color: white; }
+
+.subir4 {
+  background-color: #00AFEF;
+  color: white;
+  border: 3px solid white; }
+  .subir4 .efecto {
+    background-color: white; }
+  .subir4:hover {
+    border: 3px solid #00AFEF; }
+    .subir4:hover .efecto {
+      background-color: white; }
+    .subir4:hover .icono {
+      color: #00AFEF; }
+
+.subir5 {
+  background-color: #EC268F;
+  color: white;
+  border: 3px solid white; }
+  .subir5 .efecto {
+    background-color: white; }
+  .subir5:hover {
+    border: 3px solid #EC268F; }
+    .subir5:hover .efecto {
+      background-color: #fff; }
+    .subir5:hover .icono {
+      color: #EC268F; }
+
 #banner {
   height: 200px; }
   #banner .fondo_negro {
@@ -12686,50 +12742,58 @@ footer {
       #nuestra_oferta .boton_de_oferta_flecha_derecha:hover .hover_oferta {
         left: 0; }
 
-#servicios .col-4 {
-  height: 350px; }
-
-#servicios .imagen {
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  background-color: #F5F6FB; }
-  #servicios .imagen img {
-    width: 60%;
-    height: 60%; }
-
-#servicios .boton_leer_mas .leer_mas {
-  overflow: hidden;
-  -webkit-transition: all 250ms ease-in-out;
-  -o-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out; }
-  #servicios .boton_leer_mas .leer_mas::after {
-    content: '\f067';
-    left: -20px;
-    position: relative;
-    opacity: 0;
-    -webkit-transition: all 250ms ease-in-out;
-    -o-transition: all 250ms ease-in-out;
-    transition: all 250ms ease-in-out;
-    color: black; }
-  #servicios .boton_leer_mas .leer_mas .icono {
-    position: relative;
-    -webkit-transition: all 250ms ease-in-out;
-    -o-transition: all 250ms ease-in-out;
-    transition: all 250ms ease-in-out;
-    left: 0;
-    opacity: 1;
-    color: black; }
-
-#servicios .boton_leer_mas:hover .icono {
-  left: 20px;
-  opacity: 0; }
-
-#servicios .boton_leer_mas:hover .leer_mas {
-  color: #00AFEF; }
-  #servicios .boton_leer_mas:hover .leer_mas::after {
-    content: '\f067';
-    left: -8px;
-    position: relative;
-    opacity: 1;
-    color: #00AFEF; }
+#servicios .col-3 {
+  height: 380px;
+  -webkit-transition: all 250ms;
+  -o-transition: all 250ms;
+  transition: all 250ms; }
+  #servicios .col-3 h2 {
+    font-size: 24px; }
+  #servicios .col-3 .imagen {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #F5F6FB; }
+    #servicios .col-3 .imagen img {
+      width: 60%;
+      height: 60%; }
+  #servicios .col-3 .boton_leer_mas {
+    bottom: 0; }
+    #servicios .col-3 .boton_leer_mas .leer_mas {
+      overflow: hidden;
+      -webkit-transition: all 250ms ease-in-out;
+      -o-transition: all 250ms ease-in-out;
+      transition: all 250ms ease-in-out; }
+      #servicios .col-3 .boton_leer_mas .leer_mas::after {
+        content: '\f067';
+        left: -20px;
+        font-family: iconos;
+        font-size: 13px;
+        position: relative;
+        opacity: 0;
+        -webkit-transition: all 250ms ease-in-out;
+        -o-transition: all 250ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        color: black; }
+      #servicios .col-3 .boton_leer_mas .leer_mas .icono {
+        position: relative;
+        -webkit-transition: all 250ms ease-in-out;
+        -o-transition: all 250ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        left: 0;
+        opacity: 1;
+        color: black; }
+    #servicios .col-3 .boton_leer_mas:hover .icono {
+      left: 20px;
+      opacity: 0; }
+    #servicios .col-3 .boton_leer_mas:hover .leer_mas {
+      color: #00AFEF; }
+      #servicios .col-3 .boton_leer_mas:hover .leer_mas::after {
+        content: '\f067';
+        left: -8px;
+        position: relative;
+        opacity: 1;
+        color: #00AFEF; }
+  #servicios .col-3:hover {
+    -webkit-box-shadow: 0px 0 20px -7px black;
+    box-shadow: 0px 0 20px -7px black; }

@@ -1,6 +1,6 @@
 <?php include 'variables/variables.php';
 
-$page = "Conctáctenos";
+$page = "Contáctenos";
 $nombre_inmobiliaria = "Acriformas"
 ?>
 <!DOCTYPE html>

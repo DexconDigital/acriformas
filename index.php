@@ -472,7 +472,7 @@ $page = "Inicio";
     </section>
     <!-- SECCION PROYECTOS -->
 
-    <!-- SECCION FAQ -->
+    <!-- SECCION FAQ Y CAPACIDADES -->
     <section id="seccion_faq" class="container d-flex mt-5">
 
         <!-- NUESTRAS CAPACIDADES -->
@@ -588,7 +588,7 @@ $page = "Inicio";
         <!-- SECCION DE PREGUNTAS -->
 
     </section>
-    <!-- SECCION FAQ -->
+    <!-- SECCION FAQ Y CAPACIDADES -->
 
     <!-- BANNER -->
     <section class="mt-5">
@@ -779,6 +779,8 @@ $page = "Inicio";
     <?php include 'layout/archivos_footer.php' ?>
 
     <script src="js/botones_faq.js"></script>
+
+    <script src="js/barras_de_progreso.js"></script>
 
 </body>
 

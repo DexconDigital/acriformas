@@ -5,5 +5,8 @@
 <!-- <link rel="stylesheet" href="css/slick.css"> -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
+<script src="js/botones_subir.js"> </script>
+
+
 
 

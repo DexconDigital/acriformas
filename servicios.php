@@ -123,9 +123,9 @@ $nombre_inmobiliaria = "Acriformas"
     <!-- NUUESTRA OFERTA -->
 
     <!-- SERVICIOS -->
-    <section id="servicios" class="d-flex flex-wrap container my-5">
+    <section id="servicios" class="d-flex flex-wrap align-items-stretch justify-content-center container my-5">
 
-        <div class="my-5 col-4 d-flex flex-column align-items-center justify-content-center">
+        <div class="m-2 col-3 rounded border d-flex flex-column align-items-center justify-content-center">
 
             <div class="imagen d-flex align-items-center justify-content-center">
                 <img src="images/impresora.png" alt="">
@@ -135,9 +135,9 @@ $nombre_inmobiliaria = "Acriformas"
 
             <p> Trabajamos sobre sustrato como vinilo, banner, back-lite, panaflex, foam board, papel fotografico... </p>
 
-            <a class="boton_leer_mas position-relative mt-3" href="s_digital.php">
+            <a class="boton_leer_mas position-absolute my-3" href="s_digital.php">
 
-                <p class="d-flex align-items-center justify-content-center leer_mas position-relative"> Leer más <i class="icono ml-2 fas fa-angle-right"> </i> </p>
+                <p class="d-flex align-items-center justify-content-center  leer_mas position-relative"> Leer más <i class="icono ml-2 fas fa-angle-right"> </i> </p>
 
 
 
@@ -145,7 +145,7 @@ $nombre_inmobiliaria = "Acriformas"
 
         </div>
 
-        <div class="my-5 col-4 d-flex flex-column align-items-center justify-content-center">
+        <div class="m-2 col-3 rounded border d-flex flex-column align-items-center justify-content-center">
 
             <div class="imagen d-flex align-items-center justify-content-center">
                 <img src="images/impresora_g.png" alt="">
@@ -153,17 +153,17 @@ $nombre_inmobiliaria = "Acriformas"
 
             <h2 class="font-weight-bold my-4 text-center"> IMPRESIÓN OFFSET </h2>
 
-            <p> Nuestro servicio de impresión offset cuenta con completas y modernas herramientas y equipos que permiten realizar proyectos... </p>
+            <p> Nuestro servicio de impresión offset cuenta con completas y modernas herramientas... </p>
 
-            <a class="boton_leer_mas position-relative mt-3" href="s_offset.php">
+            <a class="boton_leer_mas position-absolute my-3" href="s_offset.php">
 
-                <p class="d-flex align-items-center justify-content-center leer_mas position-relative"> Leer más <i class="icono ml-2 fas fa-angle-right"> </i> </p>
+                <p class="d-flex align-items-center justify-content-center  leer_mas position-relative"> Leer más <i class="icono ml-2 fas fa-angle-right"> </i> </p>
 
             </a>
 
         </div>
 
-        <div class="my-5 col-4 d-flex flex-column align-items-center justify-content-center">
+        <div class="m-2 col-3 rounded border d-flex flex-column align-items-center justify-content-center">
 
             <div class="imagen d-flex align-items-center justify-content-center">
                 <img src="images/papel.png" alt="">
@@ -171,11 +171,11 @@ $nombre_inmobiliaria = "Acriformas"
 
             <h2 class="font-weight-bold my-4 text-center"> FERIAS Y EVENTOS </h2>
 
-            <p> Diseñamos estructuras de fácil manejo y movilidad, contamos con materiales y tipos de avisos para stand tales como... </p>
+            <p> Diseñamos estructuras de fácil manejo y movilidad, contamos con materiales y tipos de avisos... </p>
 
-            <a class="boton_leer_mas position-relative mt-3" href="s_eventos.php">
+            <a class="boton_leer_mas position-absolute my-3" href="s_eventos.php">
 
-                <p class="d-flex align-items-center justify-content-center leer_mas position-relative"> Leer más <i class="icono ml-2 fas fa-angle-right"> </i> </p>
+                <p class="d-flex align-items-center justify-content-center  leer_mas position-relative"> Leer más <i class="icono ml-2 fas fa-angle-right"> </i> </p>
 
 
 
@@ -183,7 +183,7 @@ $nombre_inmobiliaria = "Acriformas"
 
         </div>
 
-        <div class="mb-5 col-4 d-flex flex-column align-items-center justify-content-center">
+        <div class="m-2 col-3 rounded border d-flex flex-column align-items-center justify-content-center">
 
             <div class="imagen d-flex align-items-center justify-content-center">
                 <img src="images/camisa.png" alt="">
@@ -193,9 +193,9 @@ $nombre_inmobiliaria = "Acriformas"
 
             <p> Trabajamos sobre sustrato como vinilo, banner, back-lite, panaflex, foam board, papel fotografico... </p>
 
-            <a class="boton_leer_mas position-relative mt-3" href="s_merchandising.php">
+            <a class="boton_leer_mas position-absolute my-3" href="s_merchandising.php">
 
-                <p class="d-flex align-items-center justify-content-center leer_mas position-relative"> Leer más <i class="icono ml-2 fas fa-angle-right"> </i> </p>
+                <p class="d-flex align-items-center justify-content-center  leer_mas position-relative"> Leer más <i class="icono ml-2 fas fa-angle-right"> </i> </p>
 
 
 
@@ -203,7 +203,7 @@ $nombre_inmobiliaria = "Acriformas"
 
         </div>
 
-        <div class="mb-5 col-4 d-flex flex-column align-items-center justify-content-center">
+        <div class="m-2 col-3 rounded border d-flex flex-column align-items-center justify-content-center">
 
             <div class="imagen d-flex align-items-center justify-content-center">
                 <img src="images/circulo.png" alt="">
@@ -213,9 +213,9 @@ $nombre_inmobiliaria = "Acriformas"
 
             <p> Trabajamos sobre sustrato como vinilo, banner, back-lite, panaflex, foam board, papel fotografico... </p>
 
-            <a class="boton_leer_mas position-relative mt-3" href="s_bienestar.php">
+            <a class="boton_leer_mas position-absolute my-3" href="s_bienestar.php">
 
-                <p class="d-flex align-items-center justify-content-center leer_mas position-relative"> Leer más <i class="icono ml-2 fas fa-angle-right"> </i> </p>
+                <p class="d-flex align-items-center justify-content-center  leer_mas position-relative"> Leer más <i class="icono ml-2 fas fa-angle-right"> </i> </p>
 
 
 
@@ -223,7 +223,7 @@ $nombre_inmobiliaria = "Acriformas"
 
         </div>
 
-        <div class="mb-5 col-4 d-flex flex-column align-items-center justify-content-center">
+        <div class="m-2 col-3 rounded border d-flex flex-column align-items-center justify-content-center">
 
             <div class="imagen d-flex align-items-center justify-content-center">
                 <img src="images/folleto.png" alt="">
@@ -233,9 +233,9 @@ $nombre_inmobiliaria = "Acriformas"
 
             <p> Trabajamos sobre sustrato como vinilo, banner, back-lite, panaflex, foam board, papel fotografico... </p>
 
-            <a class="boton_leer_mas position-relative mt-3" href="s_industrial.php">
+            <a class="boton_leer_mas position-absolute my-3" href="s_industrial.php">
 
-                <p class="d-flex align-items-center justify-content-center leer_mas position-relative"> Leer más <i class="icono ml-2 fas fa-angle-right"> </i> </p>
+                <p class="d-flex align-items-center justify-content-center  leer_mas position-relative"> Leer más <i class="icono ml-2 fas fa-angle-right"> </i> </p>
 
 
 
