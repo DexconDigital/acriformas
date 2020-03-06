@@ -360,7 +360,7 @@ $page = "Inicio";
         <div class="d-flex flex-wrap mt-5">
 
             <!-- TARJETA 1 -->
-            <a href="#" class="col-4 p-0 position-relative">
+            <a href="proyectos.php" class="col-4 p-0 position-relative">
 
                 <div class="imagen position-absolute">
                     <img src="images/proyecto1.jpg" alt="">
@@ -376,7 +376,7 @@ $page = "Inicio";
             <!-- TARJETA 1 -->
 
             <!-- TARJETA 2 -->
-            <a href="#" class="col-4 p-0 position-relative">
+            <a href="proyectos.php" class="col-4 p-0 position-relative">
 
                 <div class="imagen position-absolute">
                     <img src="images/proyecto2.jpg" alt="">
@@ -392,7 +392,7 @@ $page = "Inicio";
             <!-- TARJETA 2 -->
 
             <!-- TARJETA 3 -->
-            <a href="#" class="col-4 p-0 position-relative">
+            <a href="proyectos.php" class="col-4 p-0 position-relative">
 
                 <div class="imagen position-absolute">
                     <img src="images/proyecto3.jpg" alt="">
@@ -408,7 +408,7 @@ $page = "Inicio";
             <!-- TARJETA 3 -->
 
             <!-- TARJETA 4 -->
-            <a href="#" class="col-4 p-0 position-relative">
+            <a href="proyectos.php" class="col-4 p-0 position-relative">
 
                 <div class="imagen position-absolute">
                     <img src="images/proyecto1.jpg" alt="">
@@ -424,7 +424,7 @@ $page = "Inicio";
             <!-- TARJETA 4 -->
 
             <!-- TARJETA 5 -->
-            <a href="#" class="col-4 p-0 position-relative">
+            <a href="proyectos.php" class="col-4 p-0 position-relative">
 
                 <div class="imagen position-absolute">
                     <img src="images/proyecto2.jpg" alt="">
@@ -440,7 +440,7 @@ $page = "Inicio";
             <!-- TARJETA 5 -->
 
             <!-- TARJETA 6 -->
-            <a href="#" class="col-4 p-0 position-relative">
+            <a href="proyectos.php" class="col-4 p-0 position-relative">
 
                 <div class="imagen position-absolute">
                     <img src="images/proyecto3.jpg" alt="">
@@ -575,7 +575,7 @@ $page = "Inicio";
 
             <!-- BOTON -->
             <div class="container-fluid d-flex align-items-center justify-content-center mt-3">
-                <a href="#" class="btn boton blanco">
+                <a href="faq.php" class="btn boton blanco">
                     <p class="contenido_boton"> Ver todas las preguntas </p>
                     <div class="c1"></div>
                     <div class="c2"></div>
