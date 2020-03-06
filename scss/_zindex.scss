@@ -782,8 +782,8 @@ header {
         .mas {
 
             background-color: white;
-            width: 35px; 
-            height: 35px;
+            min-width: 35px; 
+            min-height: 35px;
             border-radius: 25px;
         }
 
@@ -1186,8 +1186,77 @@ footer {
     }
 }
 
+// ------------------------------------------------------BARRAS DE ESTADISTICAS------------------------------------------------------
+
+
+// BARRAS DE ESTADISTICAS DEL INDEX
+
+.pg1 {
+    // width:95%;
+    width:0;
+    transition: all 2.5s;
+}
+
+.pg2 {
+    // width:85%;
+    width:0;
+    transition: all 2.5s;
+    transition-delay: .25s;
+}
+
+.pg3 {
+    // width:80%;
+    width:0;
+    transition: all 2.5s;
+    transition-delay: .5s;
+}
+
+.pg4 {
+    // width:79%;
+    width:0;
+    transition: all 2.5s;
+    transition-delay: 1s;
+}
+
+// BARRAS DE ESTADISTICAS DEL INDEX
 
 
 
+
+// BARRAS DE ESTADISTICAS QUIENES SOMOS
+
+.pgq1 {
+    width:0;
+    transition: all 2.5s;
+}
+
+.pgq2 {
+    width:0;
+    transition: all 2.5s;
+    transition-delay: .25s;
+}
+
+.pgq3 {
+    width:0;
+    transition: all 2.5s;
+    transition-delay: .5s;
+}
+
+.pgq4 {
+    width:0;
+    transition: all 2.5s;
+    transition-delay: 1s;
+}
+
+.pgq5 {
+    width:0;
+    transition: all 2.5s;
+    transition-delay: 1s;
+}
+
+// BARRAS DE ESTADISTICAS QUIENES SOMOS
+
+
+// ------------------------------------------------------BARRAS DE ESTADISTICAS------------------------------------------------------
 
 

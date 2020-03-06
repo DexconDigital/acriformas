@@ -38,6 +38,30 @@ $nombre_inmobiliaria = "Acriformas";
     <!-- BANNER -->
 
 
+    <section id="s_digital" class="my-5">
+
+<div class="d-flex col-6 py-5 m-auto align-items-center justify-content-center flex-column">
+
+    <div class="caja_icono p-4 position-relative">
+
+        <div class="caja_fondo5 caja_fondo"> </div>
+
+        <img class="position-relative" src="images/camisa.png" alt="">
+
+    </div>
+
+
+    <h4 class="mt-3 titulo font-weight-bold"> Merchandising </h4>
+
+    <p class="parrafo mt-2 text-justify"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quae nemo, tempora earum atque, ratione eius omnis modi illo, dicta natus accusantium recusandae eos sint laboriosam fugit. Vitae dolorum distinctio minima deserunt temporibus eius commodi molestias exercitationem at, rem deleniti id odio ab iusto porro tempora, fuga, aliquam amet culpa. </p>
+
+
+</div>
+
+
+</section>
+
+
 
 
 

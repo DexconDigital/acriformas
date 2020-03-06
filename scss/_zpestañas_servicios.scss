@@ -1,0 +1,128 @@
+#s_digital {
+
+    .col-6 {
+
+        animation: caja_contenedora 4s forwards;
+        animation-delay: 3s;
+
+    }
+
+    @keyframes caja_contenedora {
+        from {
+            box-shadow: 0;
+        }
+
+        to {
+            box-shadow: 0 0 6px 1px black;
+        }
+    }
+
+    .caja_icono {
+
+        border: 1px solid black;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+        
+    img {
+        z-index: 200;
+    }
+
+    .caja_fondo {
+        position: absolute;
+        border: 1px solid transparent;
+        width:100%;
+        height: 100%;
+        top: 100%;
+        left: 0;
+        z-index: 100;
+        animation: caja_fondo 4s forwards;
+    }
+
+    .caja_fondo1 {
+        background-color: #8080804d;
+    }
+
+    .caja_fondo2 {
+        background-color: #44921863;
+    }
+
+    .caja_fondo3 {
+        background-color: #12cdff2b;
+    }
+
+    .caja_fondo4 {
+        background-color: #ec268f69;
+    }
+
+    .caja_fondo5 {
+        background-color: #37343599;
+    }
+
+    .caja_fondo6 {
+        background-color: #12cdff2b;
+    }
+
+    
+
+    @keyframes caja_fondo {
+        from {
+            top: 100%;
+        }
+
+        to {
+            top: 0%;
+        }
+    }
+
+    .titulo {
+        position: relative;
+        opacity: 0;
+        left: -100%;
+        animation: titulo_servicios 2s forwards;
+    }
+
+    .parrafo {
+        position: relative;
+        opacity: 0;
+        right: -100%;
+        animation: parrafo_servicios 2s forwards;
+        max-width: 500px;
+    }
+
+    @keyframes titulo_servicios {
+        from {
+            left: -100%;
+            opacity: 0;
+            filter: blur(1);
+        }
+
+        to {
+            left: 0%;
+            opacity: 1;
+            filter: blur(0);
+        }
+
+    }
+
+    @keyframes parrafo_servicios {
+        from {
+            right: -100%;
+            opacity: 0;
+            filter: blur(1);
+        }
+
+        to {
+            right: 0%;
+            opacity: 1;
+            filter: blur(0);
+        }
+
+    }
+
+
+}
+
+
+

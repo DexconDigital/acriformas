@@ -38,6 +38,141 @@ $nombre_inmobiliaria = "Acriformas";
     <!-- BANNER -->
 
 
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="d-flex container mt-5 flex-wrap">
+
+<!-- PROYECTO 1 -->
+        <div class="col-4 mb-5 caja">
+
+            <h5 class="text-center mb-2 titulo "> Proyecto de revistas </h5>
+
+            <div class="imagen">
+                <img class="w-100 h-100" src="images/proyecto1.jpg" alt="">
+            </div>
+
+            <p class="mt-2 text-justify parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim sint aliquid cupiditate esse in optio sed maxime illum debitis quo. </p>
+        </div>
+<!-- PROYECTO 1 -->
+
+
+<!-- PROYECTO 2 -->
+        <div class="col-4 mb-5 caja">
+
+            <div class="overflow-hidden"><h5 class="text-center mb-2 titulo2 "> Logos para empresas </h5></div>
+
+            <div class="imagen">
+                <img class="w-100 h-100" src="images/proyecto2.jpg" alt="">
+            </div>
+
+            <p class="mt-2 text-justify parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim sint aliquid cupiditate esse in optio sed maxime illum debitis quo. </p>
+        </div>
+<!-- PROYECTO 2 -->
+
+
+<!-- PROYECTO 3 -->
+        <div class="col-4 mb-5 caja">
+
+            <h5 class="text-center mb-2 titulo3 "> Publicidad discografica </h5>
+
+            <div class="imagen">
+                <img class="w-100 h-100" src="images/proyecto3.jpg" alt="">
+            </div>
+
+            <p class="mt-2 text-justify parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim sint aliquid cupiditate esse in optio sed maxime illum debitis quo. </p> </p>
+        </div>
+<!-- PROYECTO 3 -->
+
+
+<!-- PROYECTO 4 -->
+        <div class="col-4 mb-5 caja">
+
+            <h5 class="text-center mb-2 titulo3 "> Titulo del proyecto </h5>
+
+            <div class="imagen">
+                <img class="w-100 h-100" src="images/servicios1.jpg" alt="">
+            </div>
+
+            <p class="mt-2 text-justify parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim sint aliquid cupiditate esse in optio sed maxime illum debitis quo. </p>
+        </div>
+<!-- PROYECTO 4 -->
+
+
+<!-- PROYECTO 5 -->
+        <div class="col-4 mb-5 caja">
+
+           <div class="overflow-hidden"> <h5 class="text-center mb-2 titulo2 "> Titulo del proyecto </h5></div>
+
+            <div class="imagen">
+                <img class="w-100 h-100" src="images/servicios2.jpg" alt="">
+            </div>
+
+            <p class="mt-2 text-justify parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim sint aliquid cupiditate esse in optio sed maxime illum debitis quo. </p>
+        </div>
+<!-- PROYECTO 5 -->
+
+
+<!-- PROYECTO 6 -->
+        <div class="col-4 mb-5 caja">
+
+            <h5 class="text-center mb-2 titulo "> Titulo del proyecto </h5>
+
+            <div class="imagen">
+                <img class="w-100 h-100" src="images/servicios3.jpg" alt="">
+            </div>
+
+            <p class="mt-2 text-justify parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim sint aliquid cupiditate esse in optio sed maxime illum debitis quo. </p></>
+
+
+        </div>
+<!-- PROYECTO 6 -->
+
+
+<!-- PROYECTO 7 -->
+        <div class="col-4 mb-5 caja">
+
+            <h5 class="text-center mb-2 titulo "> Titulo del proyecto </h5>
+
+            <div class="imagen">
+                <img class="w-100 h-100" src="images/servicios1.jpg" alt="">
+            </div>
+
+            <p class="mt-2 text-justify parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim sint aliquid cupiditate esse in optio sed maxime illum debitis quo. </p>
+        </div>
+<!-- PROYECTO 7 -->
+
+
+<!-- PROYECTO 8 -->
+        <div class="col-4 mb-5 caja">
+
+            <h5 class="text-center mb-2 titulo "> Titulo del proyecto </h5>
+
+            <div class="imagen">
+                <img class="w-100 h-100" src="images/servicios2.jpg" alt="">
+            </div>
+
+            <p class="mt-2 text-justify parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim sint aliquid cupiditate esse in optio sed maxime illum debitis quo. </p>
+        </div>
+<!-- PROYECTO 8 -->
+
+
+<!-- PROYECTO 9 -->
+        <div class="col-4 mb-5 caja">
+
+            <h5 class="text-center mb-2 titulo "> Titulo del proyecto </h5>
+
+            <div class="imagen">
+                <img class="w-100 h-100" src="images/servicios3.jpg" alt="">
+            </div>
+
+            <p class="mt-2 text-justify parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim sint aliquid cupiditate esse in optio sed maxime illum debitis quo. </p></>
+
+
+        </div>
+<!-- PROYECTO 9 -->
+
+    </section>
+    <!-- PROYECTOS -->
+
 
 
 

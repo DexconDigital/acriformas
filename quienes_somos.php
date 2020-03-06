@@ -171,31 +171,31 @@ $nombre_inmobiliaria = "Acriformas"
             <p class="mt-3 font-weight-bold"> Confianza </p>
 
             <div class="progress my-2">
-                <div class="progress-bar bg_c" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg_c pgq1 progress-bar-striped progress-bar-animated" role="progressbar"aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
 
             <p class="mt-3 font-weight-bold"> Puntualidad (oportunidad) </p>
 
             <div class="progress my-2">
-                <div class="progress-bar bg_c" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg_c pgq2 progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
 
             <p class="mt-3 font-weight-bold"> Liderazgo </p>
 
             <div class="progress my-2">
-                <div class="progress-bar bg_c" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg_c pgq3 progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
 
             <p class="mt-3 font-weight-bold"> Conocimiento </p>
 
             <div class="progress my-2">
-                <div class="progress-bar bg_c" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg_c pgq4 progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
 
             <p class="mt-3 font-weight-bold"> Respeto </p>
 
             <div class="progress my-2">
-                <div class="progress-bar bg_c" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg_c pgq5 progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
 
         </div>
@@ -232,6 +232,9 @@ $nombre_inmobiliaria = "Acriformas"
     <?php include 'layout/archivos_footer.php' ?>
 
     <script src="js/quienes_somos.js"></script>
+
+    <script src="js/barras_de_progreso.js"></script>
+
 
 
 

@@ -1,0 +1,84 @@
+#proyectos {
+
+    .imagen {
+
+        width: 340px;
+        height: 240px;
+
+    }
+
+    .caja {
+
+        overflow: hidden;
+
+        .titulo {
+            position: relative;
+            animation: titulo 2s forwards;
+            left: -100%;
+        }
+
+        .titulo2 {
+            position: relative;
+            animation: titulo2 2s forwards;
+            top: 40px;
+        }
+
+
+        .titulo3 {
+            position: relative;
+            animation: titulo3 2s forwards;
+            right: -100%;
+        }
+
+        .parrafo {
+            transition: all 250ms;
+            position: relative;
+            animation: parrafo 2s forwards;
+            animation-delay: .5s;
+            top: 100%;
+        }
+
+    }
+
+    @keyframes titulo {
+        from {
+            left: -100%;
+        }
+
+        to {
+            left: 0%;
+        }
+    }
+
+    @keyframes titulo2 {
+        from {
+            top: 40px;
+
+        }
+
+        to {
+            top: 0;
+
+        }
+    }
+
+    @keyframes titulo3 {
+        from {
+            right: -100%;
+        }
+
+        to {
+            right: 0%;
+        }
+    }
+
+    @keyframes parrafo {
+        from {
+            top: 100%;
+        }
+
+        to {
+            top: 0%;
+        }
+    }
+}

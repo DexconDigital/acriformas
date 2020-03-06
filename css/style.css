@@ -12356,8 +12356,8 @@ header {
 
 #seccion_faq .accordion .mas {
   background-color: white;
-  width: 35px;
-  height: 35px;
+  min-width: 35px;
+  min-height: 35px;
   border-radius: 25px; }
 
 #seccion_faq .accordion button {
@@ -12591,6 +12591,81 @@ footer {
     .subir5:hover .icono {
       color: #EC268F; }
 
+.pg1 {
+  width: 0;
+  -webkit-transition: all 2.5s;
+  -o-transition: all 2.5s;
+  transition: all 2.5s; }
+
+.pg2 {
+  width: 0;
+  -webkit-transition: all 2.5s;
+  -o-transition: all 2.5s;
+  transition: all 2.5s;
+  -webkit-transition-delay: .25s;
+  -o-transition-delay: .25s;
+  transition-delay: .25s; }
+
+.pg3 {
+  width: 0;
+  -webkit-transition: all 2.5s;
+  -o-transition: all 2.5s;
+  transition: all 2.5s;
+  -webkit-transition-delay: .5s;
+  -o-transition-delay: .5s;
+  transition-delay: .5s; }
+
+.pg4 {
+  width: 0;
+  -webkit-transition: all 2.5s;
+  -o-transition: all 2.5s;
+  transition: all 2.5s;
+  -webkit-transition-delay: 1s;
+  -o-transition-delay: 1s;
+  transition-delay: 1s; }
+
+.pgq1 {
+  width: 0;
+  -webkit-transition: all 2.5s;
+  -o-transition: all 2.5s;
+  transition: all 2.5s; }
+
+.pgq2 {
+  width: 0;
+  -webkit-transition: all 2.5s;
+  -o-transition: all 2.5s;
+  transition: all 2.5s;
+  -webkit-transition-delay: .25s;
+  -o-transition-delay: .25s;
+  transition-delay: .25s; }
+
+.pgq3 {
+  width: 0;
+  -webkit-transition: all 2.5s;
+  -o-transition: all 2.5s;
+  transition: all 2.5s;
+  -webkit-transition-delay: .5s;
+  -o-transition-delay: .5s;
+  transition-delay: .5s; }
+
+.pgq4 {
+  width: 0;
+  -webkit-transition: all 2.5s;
+  -o-transition: all 2.5s;
+  transition: all 2.5s;
+  -webkit-transition-delay: 1s;
+  -o-transition-delay: 1s;
+  transition-delay: 1s; }
+
+.pgq5 {
+  width: 0;
+  -webkit-transition: all 2.5s;
+  -o-transition: all 2.5s;
+  transition: all 2.5s;
+  -webkit-transition-delay: 1s;
+  -o-transition-delay: 1s;
+  transition-delay: 1s; }
+
 #banner {
   height: 200px; }
   #banner .fondo_negro {
@@ -12797,3 +12872,217 @@ footer {
   #servicios .col-3:hover {
     -webkit-box-shadow: 0px 0 20px -7px black;
     box-shadow: 0px 0 20px -7px black; }
+
+#proyectos .imagen {
+  width: 340px;
+  height: 240px; }
+
+#proyectos .caja {
+  overflow: hidden; }
+  #proyectos .caja .titulo {
+    position: relative;
+    -webkit-animation: titulo 2s forwards;
+    animation: titulo 2s forwards;
+    left: -100%; }
+  #proyectos .caja .titulo2 {
+    position: relative;
+    -webkit-animation: titulo2 2s forwards;
+    animation: titulo2 2s forwards;
+    top: 40px; }
+  #proyectos .caja .titulo3 {
+    position: relative;
+    -webkit-animation: titulo3 2s forwards;
+    animation: titulo3 2s forwards;
+    right: -100%; }
+  #proyectos .caja .parrafo {
+    -webkit-transition: all 250ms;
+    -o-transition: all 250ms;
+    transition: all 250ms;
+    position: relative;
+    -webkit-animation: parrafo 2s forwards;
+    animation: parrafo 2s forwards;
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s;
+    top: 100%; }
+
+@-webkit-keyframes titulo {
+  from {
+    left: -100%; }
+  to {
+    left: 0%; } }
+
+@keyframes titulo {
+  from {
+    left: -100%; }
+  to {
+    left: 0%; } }
+
+@-webkit-keyframes titulo2 {
+  from {
+    top: 40px; }
+  to {
+    top: 0; } }
+
+@keyframes titulo2 {
+  from {
+    top: 40px; }
+  to {
+    top: 0; } }
+
+@-webkit-keyframes titulo3 {
+  from {
+    right: -100%; }
+  to {
+    right: 0%; } }
+
+@keyframes titulo3 {
+  from {
+    right: -100%; }
+  to {
+    right: 0%; } }
+
+@-webkit-keyframes parrafo {
+  from {
+    top: 100%; }
+  to {
+    top: 0%; } }
+
+@keyframes parrafo {
+  from {
+    top: 100%; }
+  to {
+    top: 0%; } }
+
+#s_digital .col-6 {
+  -webkit-animation: caja_contenedora 4s forwards;
+  animation: caja_contenedora 4s forwards;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s; }
+
+@-webkit-keyframes caja_contenedora {
+  from {
+    -webkit-box-shadow: 0;
+    box-shadow: 0; }
+  to {
+    -webkit-box-shadow: 0 0 6px 1px black;
+    box-shadow: 0 0 6px 1px black; } }
+
+@keyframes caja_contenedora {
+  from {
+    -webkit-box-shadow: 0;
+    box-shadow: 0; }
+  to {
+    -webkit-box-shadow: 0 0 6px 1px black;
+    box-shadow: 0 0 6px 1px black; } }
+
+#s_digital .caja_icono {
+  border: 1px solid black;
+  border-radius: 50%;
+  overflow: hidden; }
+
+#s_digital img {
+  z-index: 200; }
+
+#s_digital .caja_fondo {
+  position: absolute;
+  border: 1px solid transparent;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  left: 0;
+  z-index: 100;
+  -webkit-animation: caja_fondo 4s forwards;
+  animation: caja_fondo 4s forwards; }
+
+#s_digital .caja_fondo1 {
+  background-color: #8080804d; }
+
+#s_digital .caja_fondo2 {
+  background-color: #44921863; }
+
+#s_digital .caja_fondo3 {
+  background-color: #12cdff2b; }
+
+#s_digital .caja_fondo4 {
+  background-color: #ec268f69; }
+
+#s_digital .caja_fondo5 {
+  background-color: #37343599; }
+
+#s_digital .caja_fondo6 {
+  background-color: #12cdff2b; }
+
+@-webkit-keyframes caja_fondo {
+  from {
+    top: 100%; }
+  to {
+    top: 0%; } }
+
+@keyframes caja_fondo {
+  from {
+    top: 100%; }
+  to {
+    top: 0%; } }
+
+#s_digital .titulo {
+  position: relative;
+  opacity: 0;
+  left: -100%;
+  -webkit-animation: titulo_servicios 2s forwards;
+  animation: titulo_servicios 2s forwards; }
+
+#s_digital .parrafo {
+  position: relative;
+  opacity: 0;
+  right: -100%;
+  -webkit-animation: parrafo_servicios 2s forwards;
+  animation: parrafo_servicios 2s forwards;
+  max-width: 500px; }
+
+@-webkit-keyframes titulo_servicios {
+  from {
+    left: -100%;
+    opacity: 0;
+    -webkit-filter: blur(1);
+    filter: blur(1); }
+  to {
+    left: 0%;
+    opacity: 1;
+    -webkit-filter: blur(0);
+    filter: blur(0); } }
+
+@keyframes titulo_servicios {
+  from {
+    left: -100%;
+    opacity: 0;
+    -webkit-filter: blur(1);
+    filter: blur(1); }
+  to {
+    left: 0%;
+    opacity: 1;
+    -webkit-filter: blur(0);
+    filter: blur(0); } }
+
+@-webkit-keyframes parrafo_servicios {
+  from {
+    right: -100%;
+    opacity: 0;
+    -webkit-filter: blur(1);
+    filter: blur(1); }
+  to {
+    right: 0%;
+    opacity: 1;
+    -webkit-filter: blur(0);
+    filter: blur(0); } }
+
+@keyframes parrafo_servicios {
+  from {
+    right: -100%;
+    opacity: 0;
+    -webkit-filter: blur(1);
+    filter: blur(1); }
+  to {
+    right: 0%;
+    opacity: 1;
+    -webkit-filter: blur(0);
+    filter: blur(0); } }

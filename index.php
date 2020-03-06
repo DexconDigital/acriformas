@@ -460,7 +460,7 @@ $page = "Inicio";
 
         <!-- BOTON -->
         <div class="container-fluid d-flex align-items-center justify-content-center mt-5">
-            <a href="#" class="btn boton blanco">
+            <a href="proyectos.php" class="btn boton blanco">
                 <p class="contenido_boton"> Ver todos los proyectos </p>
                 <div class="c1"></div>
                 <div class="c2"></div>
@@ -486,25 +486,25 @@ $page = "Inicio";
             <p class="mt-3 font-weight-bold"> IMPRESION DIGITAL </p>
 
             <div class="progress my-2">
-                <div class="progress-bar bg_c" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar pg1 bg_c progress-bar-striped progress-bar-animated" role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
 
             <p class="mt-3 font-weight-bold"> IMPRESION OFFSET </p>
 
             <div class="progress my-2">
-                <div class="progress-bar bg_c" role="progressbar" style="width: 85%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar pg2 bg_c progress-bar-striped progress-bar-animated" role="progressbar"  aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
 
             <p class="mt-3 font-weight-bold"> IMPRESION MERCHANDISING </p>
 
             <div class="progress my-2">
-                <div class="progress-bar bg_c" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar pg3 bg_c progress-bar-striped progress-bar-animated" role="progressbar"  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
 
             <p class="mt-3 font-weight-bold"> FERIAS Y EVENTOS </p>
 
             <div class="progress my-2">
-                <div class="progress-bar bg_c" role="progressbar" style="width: 79%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar pg4 bg_c progress-bar-striped progress-bar-animated" role="progressbar"  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
 
         </div>
