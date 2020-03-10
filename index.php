@@ -25,7 +25,7 @@ $page = "Inicio";
     <section id="imagenes_principales" class="margen_top">
 
         <div class="imagen">
-            <img src="images/publicidad.jpg" alt="">
+            <img src="images/mvideo3.jpg" alt="">
         </div>
 
     </section>

@@ -39,6 +39,67 @@ $nombre_inmobiliaria = "Acriformas";
 
 
 
+    <section>
+
+        <h2 class="font-weight-bold my-5 text-center"> Solicite su cotización en línea </h2>
+
+        <div class="container d-flex flex-wrap">
+
+            <div class="col-6 d-flex justify-content-center align-items-center flex-column">
+
+                <div>
+                    <img class="w-100 h-100" src="images/pedido_en_linea.png" alt="">
+                </div>
+
+
+
+            </div>
+
+
+            <!-- FORMULARIO -->
+            <form class="col-6 d-flex my-5 justify-content-center align-items-center flex-wrap">
+
+                    <div class="my-3 col-12">
+                        <input type="text" class="border form-control" id="" name="nombre" aria-describedby="emailHelp" placeholder="Nombre" required>
+                    </div>
+
+                    <div class="mb-3 col-12">
+                        <input type="number" class="border form-control" name="telefono" aria-describedby="emailHelp" placeholder="Telefono" required>
+                    </div>
+
+                    <div class="mb-3 align-items-center d-flex col-12">
+                        <input type="text" class="border form-control" name="correo" aria-describedby="emailHelp" placeholder="Correo electrónico" required>
+                    </div>
+
+                    <div class="mb-3 col-12 form-group d-flex align-items-start">
+                        <label for="exampleFormControlTextarea1"></label>
+                        <textarea class="form-control" name="mensaje" placeholder="Solicitud" rows="3"></textarea>
+                    </div>
+
+                    <label class="col-12 mt-3"><input type="checkbox"> He leído y acepto la política de privacidad </label>
+
+                    <a href="#" class="position-relative btn boton blanco mt-1">
+                        <p class="contenido_boton"> Pague en línea </p>
+                        <div class="c1"></div>
+                        <div class="c2"></div>
+                        <div class="c3"></div>
+                    </a>
+
+
+
+            </form>
+            <!-- FORMULARIO -->
+
+        </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
 
 
 

@@ -1,0 +1,40 @@
+#noticias {
+
+    .tarjeta {
+
+        .imagen {
+            height: 260px;
+            animation: imagen 1.5s forwards;
+        }
+
+        .titulo {
+            animation: titulo_noticia 3s forwards;
+        }
+
+        .texto {
+            animation: titulo_noticia 3s forwards;
+        }
+
+    }
+
+    @keyframes imagen {
+        from {
+            filter: blur(10px);
+        }
+
+        to {
+            filter: blur(inherit);
+        }
+    }
+
+    @keyframes titulo_noticia {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+}
