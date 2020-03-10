@@ -57,33 +57,36 @@ $nombre_inmobiliaria = "Acriformas";
 
 
             <!-- FORMULARIO -->
-            <form class="col-6 d-flex my-5 justify-content-center align-items-center flex-wrap">
+            <form id="formulario_clientes" class="col-6 d-flex my-5 justify-content-center align-items-center flex-wrap">
 
-                    <div class="my-3 col-12">
-                        <input type="text" class="border form-control" id="" name="nombre" aria-describedby="emailHelp" placeholder="Nombre" required>
-                    </div>
+                <div class="my-3 col-12">
+                    <input type="text" class="border form-control" id="" name="nombre" aria-describedby="emailHelp" placeholder="Nombre" required>
+                </div>
 
-                    <div class="mb-3 col-12">
-                        <input type="number" class="border form-control" name="telefono" aria-describedby="emailHelp" placeholder="Telefono" required>
-                    </div>
+                <div class="mb-3 col-12">
+                    <input type="number" class="border form-control" name="telefono" aria-describedby="emailHelp" placeholder="Teléfono" required>
+                </div>
 
-                    <div class="mb-3 align-items-center d-flex col-12">
-                        <input type="text" class="border form-control" name="correo" aria-describedby="emailHelp" placeholder="Correo electrónico" required>
-                    </div>
+                <div class="mb-3 align-items-center d-flex col-12">
+                    <input type="text" class="border form-control" name="correo" aria-describedby="emailHelp" placeholder="Correo electrónico" required>
+                </div>
 
-                    <div class="mb-3 col-12 form-group d-flex align-items-start">
-                        <label for="exampleFormControlTextarea1"></label>
-                        <textarea class="form-control" name="mensaje" placeholder="Solicitud" rows="3"></textarea>
-                    </div>
+                <div class="mb-3 col-12 form-group d-flex align-items-start">
+                    <label for="exampleFormControlTextarea1"></label>
+                    <textarea class="form-control" name="mensaje" placeholder="Tu Solicitud" rows="3"></textarea>
+                </div>
 
-                    <label class="col-12 mt-3"><input type="checkbox"> He leído y acepto la política de privacidad </label>
+                <div class="custom-control custom-checkbox mb-4">
+                    <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy" required>
+                    <label class="custom-control-label" for="defaultContactFormCopy">Confirmo que he leído, entendido y acepto la<a class="color_a_contacto" href="archivos/politica.pdf" target="blank"> política de tratamiento de datos personales.</a></label>
+                </div>
 
-                    <a href="#" class="position-relative btn boton blanco mt-1">
-                        <p class="contenido_boton"> Pague en línea </p>
-                        <div class="c1"></div>
-                        <div class="c2"></div>
-                        <div class="c3"></div>
-                    </a>
+                <a href="#" class="position-relative btn boton blanco mt-1">
+                    <p class="contenido_boton"> Pague en línea </p>
+                    <div class="c1"></div>
+                    <div class="c2"></div>
+                    <div class="c3"></div>
+                </a>
 
 
 

@@ -12666,6 +12666,14 @@ footer {
   -o-transition-delay: 1s;
   transition-delay: 1s; }
 
+#formulario_clientes .color_a_contacto {
+  color: #00AFEF;
+  -webkit-transition: all 250ms;
+  -o-transition: all 250ms;
+  transition: all 250ms; }
+  #formulario_clientes .color_a_contacto:hover {
+    color: #EC268F; }
+
 #banner {
   height: 200px; }
   #banner .fondo_negro {

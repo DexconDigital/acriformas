@@ -1260,3 +1260,14 @@ footer {
 // ------------------------------------------------------BARRAS DE ESTADISTICAS------------------------------------------------------
 
 
+#formulario_clientes {
+
+    .color_a_contacto {
+        color: $c; 
+        transition: all 250ms;
+
+        &:hover {
+            color: $m;
+        }
+    }
+}

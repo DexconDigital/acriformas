@@ -128,7 +128,7 @@ $nombre_inmobiliaria = "Acriformas"
 
             <div class="custom-control custom-checkbox mb-4">
                 <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy" required>
-                <label class="custom-control-label" for="defaultContactFormCopy">Confimo que he leído, entendido y acepto la<a class="color_a_contacto" href="archivos/politica.pdf" target="blank"> política de tratamiento de datos personales.</a></label>
+                <label class="custom-control-label" for="defaultContactFormCopy">Confirmo que he leído, entendido y acepto la<a class="color_a_contacto" href="archivos/politica.pdf" target="blank"> política de tratamiento de datos personales.</a></label>
             </div>
 
         </form>
