@@ -28,7 +28,7 @@ $nombre_inmobiliaria = "Acriformas"
     <section id="banner" class="margen_top position-relative">
 
         <div class="imagen w-100 h-100 position-absolute">
-            <img class="h-100 w-100" src="images/Banner_Impresion_Offset.png" alt="">
+            <img class="h-100 w-100" src="images/banner_quienes_somos.png" alt="">
         </div>
 
         <div class="fondo_negro position-absolute w-100 h-100"> </div>
