@@ -38,7 +38,7 @@ $page = "Inicio";
 
             <div class="izquierda d-flex align-items-start justify-content-center flex-column col-3">
                 <h2 class="mb-3 font-weight-bold"> Servicios </h2>
-                <p> Tanto en nuestras oficinas como en línea, puedes encontrar las más completa soluciones en comunicación gráfica integral. </p>
+                <p> Tanto en nuestras oficinas como en línea, puedes encontrar las más completas soluciones en comunicación gráfica integral. </p>
             </div>
 
             <div class="derecha p-0 col-9 d-flex flex-wrap">
@@ -118,7 +118,7 @@ $page = "Inicio";
         <div class="col-7">
 
             <h4 class="m"> Bienvenido a: </h4>
-            <h2 class="mt-3 font-weight-bold"> ACRIFORMAS PUBLICIDAD S.A.S. DIGITAL & MERCHANDISING </h2>
+            <h2 class="mt-3 font-weight-bold"> ACRIFORMAS PUBLICIDAD S.A.S. </br> DIGITAL & MERCHANDISING </h2>
             <p class="mt-2 text-justify"> Somos un aliado estratégico para nuestros clientes en el desarrollo de la
                 comunicación gráfica de forma integral, a través de un talento humano
                 competente y comprometido, generando los resultados y beneficios esperados
@@ -127,7 +127,7 @@ $page = "Inicio";
             </p>
 
             <!-- BOTON -->
-            <a href="#" class="position-relative btn boton blanco mt-3">
+            <a href="quienes_somos.php" class="position-relative btn boton blanco mt-3">
                 <p class="contenido_boton"> Descubre más </p>
                 <div class="c1"></div>
                 <div class="c2"></div>
@@ -160,7 +160,7 @@ $page = "Inicio";
             <div class="contenido position-absolute d-flex align-items-center justify-content-center flex-column w-100 h-100">
 
                 <h4 class="y"> Le damos forma a tus ideas </h4>
-                <h2 class="w-75 font-weight-bold blanco mt-3 text-uppercase"> Experiencia en soluciones de impresión, digital y merchandising por más de 13 años. </h2>
+                <h2 class="w-75 text-center font-weight-bold blanco mt-3 text-uppercase"> Experiencia en soluciones de impresión, digital y merchandising por más de 13 años. </h2>
 
                 <!-- BOTON VIDEO -->
                 <a href="#" class="mt-5 boton_video d-flex position-relative align-items-center justify-content-center">
@@ -209,7 +209,7 @@ $page = "Inicio";
 
                 <h4 class="verde text-center"> Nuestros </h4>
                 <h2 class="font-weigh-bold text-center mt-3"> TESTIMONIOS </h2>
-                <p class="mt-3 text-justify px-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eos accusantium minima iusto nobis debitis delectus corporis non facere sit atque, unde aspernatur qui, illum itaque magni, maiores mollitia. Aliquam, architecto officiis. Doloremque magnam dicta est voluptatibus esse natus non? </p>
+                <p class="mt-3 text-justify px-3"> En Acriformas Publicidad, nos esforzamos por lograr los mejores resultados, por eso procuramos cumplir con los más altos estándares en cada proyecto que emprendemos, ya que de esta manera podemos asegurar la satisfacción y fidelidad de nuestros clientes. </p>
 
             </div>
             <!-- TEXTO TESTIMONIOS -->
@@ -234,7 +234,7 @@ $page = "Inicio";
                 <div class="titulo_y_parrafo d-flex col-12 p-0 align-items-center justify-content-center flex-column">
 
                     <div class="pt-5 mx-4">
-                        <h4 class="blanco"> titulo </h4>
+                        <h4 class="blanco"> Impresión Digital </h4>
                         <p class="blanco text-justify"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eos cumque, itaque veritatis pariatur voluptatem est sequi repellendus sed accusamus dolore quae nam maiores blanditiis quam eligendi voluptas assumenda deserunt! </p>
                     </div>
 
@@ -313,7 +313,7 @@ $page = "Inicio";
                 <!-- TITULOS Y PARRAFO -->
                 <div>
                     <h4 class="verde"> Encuentra todo lo que buscas </h4>
-                    <h2 class="text-uppercase mt-3 font-weight-bold f50 blanco"> OFRECEMOS UN APLIO RANGO DE SERVICIOS </h2>
+                    <h2 class="text-uppercase mt-3 font-weight-bold f50 blanco"> OFRECEMOS UN AMPLIO RANGO DE SERVICIOS </h2>
                     <p class="blanco mt-3"> Tenemos la experiencia para aportar soluciones claras y creativas para nuestros clientes, ayudándoles a crear y compartir experiencias de marca de vanguardia orientadas a comunicar la esencia de los proyectos en cada punto de contacto, con el propósito de contribuir al logro de sus objetivos. </p>
                 </div>
                 <!-- TITULOS Y PARRAFO -->
@@ -486,25 +486,37 @@ $page = "Inicio";
             <p class="mt-3 font-weight-bold"> IMPRESION DIGITAL </p>
 
             <div class="progress my-2">
-                <div class="progress-bar pg1 bg_c progress-bar-striped progress-bar-animated" role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar pg1 bg_c progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
 
             <p class="mt-3 font-weight-bold"> IMPRESION OFFSET </p>
 
             <div class="progress my-2">
-                <div class="progress-bar pg2 bg_c progress-bar-striped progress-bar-animated" role="progressbar"  aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar pg2 bg_c progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
 
             <p class="mt-3 font-weight-bold"> IMPRESION MERCHANDISING </p>
 
             <div class="progress my-2">
-                <div class="progress-bar pg3 bg_c progress-bar-striped progress-bar-animated" role="progressbar"  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar pg3 bg_c progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
 
             <p class="mt-3 font-weight-bold"> FERIAS Y EVENTOS </p>
 
             <div class="progress my-2">
-                <div class="progress-bar pg4 bg_c progress-bar-striped progress-bar-animated" role="progressbar"  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar pg4 bg_c progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <p class="mt-3 font-weight-bold text-uppercase"> Bienestar y eventos empresariales </p>
+
+            <div class="progress my-2">
+                <div class="progress-bar pg4 bg_c progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <p class="mt-3 font-weight-bold text-uppercase"> Señalización industrial </p>
+
+            <div class="progress my-2">
+                <div class="progress-bar pg4 bg_c progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
 
         </div>
@@ -592,7 +604,7 @@ $page = "Inicio";
 
     <!-- BANNER -->
     <section class="mt-5">
-        <img class="w-100" src="images/banner.webp" alt="">
+        <img class="w-100" src="images/banner.png" alt="">
     </section>
     <!-- BANNER -->
 
@@ -656,7 +668,7 @@ $page = "Inicio";
 
             <!-- INSTAGRAM FEED  -->
             <div class="col-6 d-flex align-items-center justify-content-center">
-                <h2> *Instagram feed aquí* </h2>
+                <h2> *Twitter feed aquí* </h2>
             </div>
             <!-- INSTAGRAM FEED  -->
         </div>

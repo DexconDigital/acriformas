@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*!
  * Bootstrap Grid v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -11850,8 +11849,8 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 @font-face {
-  font-family: PermanentMarker;
-  src: url(../fonts/PermanentMarker.ttf); }
+  font-family: Kingthings;
+  src: url(../fonts/Kingthings.ttf); }
 
 @font-face {
   font-family: Gilroy;
@@ -11872,7 +11871,7 @@ h1, h2, h3, button {
   font-family: Gilroy; }
 
 h4, h5, h6 {
-  font-family: PermanentMarker; }
+  font-family: Kingthings; }
 
 p, h1, h2, h3, h4, h5, h6 {
   padding: 0;
@@ -12029,6 +12028,14 @@ header {
     height: 50px;
     border-radius: 25px;
     color: white; }
+    header #redes_contacto .circulo:hover .escalar_icono {
+      -webkit-transform: scale(1.4);
+      -ms-transform: scale(1.4);
+      transform: scale(1.4); }
+  header #redes_contacto .escalar_icono {
+    -webkit-transition: all 250ms;
+    -o-transition: all 250ms;
+    transition: all 250ms; }
   header #redes_contacto .c_facebook, header #redes_contacto .c_instagram, header #redes_contacto .c_twitter, header #redes_contacto .c_skype {
     -webkit-transition: all 250ms;
     -o-transition: all 250ms;
@@ -12154,7 +12161,7 @@ header {
   #seccion_video .contenido {
     z-index: 200; }
     #seccion_video .contenido h2 {
-      font-size: 55px; }
+      font-size: 42px; }
     #seccion_video .contenido .boton_video {
       width: 75px;
       height: 75px;
@@ -12219,7 +12226,7 @@ header {
       -webkit-transition: all 350ms;
       -o-transition: all 350ms;
       transition: all 350ms;
-      margin-top: 75%; }
+      margin-top: 70%; }
   #seccion_videos .card1 .caja_boton, #seccion_videos .card3 .caja_boton, #seccion_videos .card4 .caja_boton {
     -webkit-transition: all 250ms;
     -o-transition: all 250ms;
@@ -12246,7 +12253,7 @@ header {
     #seccion_videos .card1:hover .boton_videos span, #seccion_videos .card3:hover .boton_videos span, #seccion_videos .card4:hover .boton_videos span {
       display: none; }
     #seccion_videos .card1:hover .boton_videos::after, #seccion_videos .card3:hover .boton_videos::after, #seccion_videos .card4:hover .boton_videos::after {
-      content: "Ver más";
+      content: "Ver";
       color: black; }
   #seccion_videos .card1:hover .titulo_y_parrafo h4, #seccion_videos .card3:hover .titulo_y_parrafo h4, #seccion_videos .card4:hover .titulo_y_parrafo h4 {
     margin-top: initial; }
@@ -12751,7 +12758,7 @@ footer {
     z-index: 400;
     padding: 15px;
     position: absolute;
-    top: 50%;
+    top: calc(50% - 25px);
     -webkit-transition: all 250ms ease;
     -o-transition: all 250ms ease;
     transition: all 250ms ease;
@@ -12794,7 +12801,7 @@ footer {
     z-index: 400;
     padding: 15px;
     position: absolute;
-    top: 50%;
+    top: calc(50% - 25px);
     -webkit-transition: all 250ms ease;
     -o-transition: all 250ms ease;
     transition: all 250ms ease;

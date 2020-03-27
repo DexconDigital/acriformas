@@ -1,6 +1,6 @@
 @font-face {
-    font-family: PermanentMarker;
-    src: url(../fonts/PermanentMarker.ttf);
+    font-family: Kingthings;
+    src: url(../fonts/Kingthings.ttf);
 }
 
 @font-face {
@@ -20,6 +20,8 @@
 
 
 
+
+
 p,a {
     font-family: SofiaPro;
 }
@@ -29,7 +31,7 @@ h1,h2,h3,button {
 }
 
 h4,h5,h6 {
-    font-family: PermanentMarker;
+    font-family: Kingthings;
 }
 
 p,h1,h2,h3,h4,h5,h6 {
@@ -246,18 +248,33 @@ header {
             border-radius: 25px;
             color: white;
 
+            &:hover {
+                .escalar_icono {
+                    transform: scale(1.4);
+                }
+            }
+
         }
+
+        .escalar_icono {
+            transition: all 250ms;
+        }
+
+    
 
         .c_facebook,.c_instagram,.c_twitter,.c_skype {
 
             transition: all 250ms;
         }
 
+    
+
         .c_facebook {
             background-color: $k;
 
             &:hover {
                 background-color: $m;
+               
             }
         }
 
@@ -471,7 +488,7 @@ header {
         z-index: 200;
 
         h2 {
-            font-size: 55px;
+            font-size: 42px;
         }
 
         .boton_video {
@@ -573,7 +590,7 @@ header {
 
             h4 {
                 transition: all 350ms;
-                margin-top: 75%;
+                margin-top: 70%;
             }
         }
 
@@ -612,7 +629,7 @@ header {
                 }
 
                 &::after {
-                    content: "Ver más";
+                    content: "Ver";
                     color: black;
                 }
             }

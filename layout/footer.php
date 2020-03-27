@@ -29,7 +29,7 @@ if($page == 'FAQ') { echo 'subir4'; };
 
         <!-- COPYRIGHT -->
         <div class="blanco col-12 col-md-4 col-lg-4 col-xl-4">
-            <p class="text-center"> Diseñado y Desarrollado por <a target="blank" href="https://www.dexcondigital.com"> Dexcon Digital </a> ©Copyright 2020 para Acriformas. Todos los derechos reservados. </p>
+            <p class="text-center"> Diseñado y Desarrollado por <a target="blank" href="https://www.dexcondigital.com"> Dexcon Digital </a> ©Copyright 2020 para Acriformas Publicidad S.A.S. Todos los derechos reservados. </p>
         </div>
         <!-- COPYRIGHT -->
 

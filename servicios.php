@@ -133,7 +133,7 @@ $nombre_inmobiliaria = "Acriformas"
 
             <h2 class="font-weight-bold my-4 text-center"> IMPRESIÓN DIGITAL </h2>
 
-            <p> Trabajamos sobre sustrato como vinilo, banner, back-lite, panaflex, foam board, papel fotografico... </p>
+            <p class="text-center"> Trabajamos sobre sustrato como vinilo, banner, back-lite, panaflex, foam board, papel fotografico... </p>
 
             <a class="boton_leer_mas position-absolute my-3" href="s_digital.php">
 
@@ -153,7 +153,7 @@ $nombre_inmobiliaria = "Acriformas"
 
             <h2 class="font-weight-bold my-4 text-center"> IMPRESIÓN OFFSET </h2>
 
-            <p> Nuestro servicio de impresión offset cuenta con completas y modernas herramientas... </p>
+            <p class="text-center"> Nuestro servicio de impresión offset cuenta con completas y modernas herramientas... </p>
 
             <a class="boton_leer_mas position-absolute my-3" href="s_offset.php">
 
@@ -171,7 +171,7 @@ $nombre_inmobiliaria = "Acriformas"
 
             <h2 class="font-weight-bold my-4 text-center"> FERIAS Y EVENTOS </h2>
 
-            <p> Diseñamos estructuras de fácil manejo y movilidad, contamos con materiales y tipos de avisos... </p>
+            <p class="text-center"> Diseñamos estructuras de fácil manejo y movilidad, contamos con materiales y tipos de avisos... </p>
 
             <a class="boton_leer_mas position-absolute my-3" href="s_eventos.php">
 
@@ -191,7 +191,7 @@ $nombre_inmobiliaria = "Acriformas"
 
             <h2 class="font-weight-bold my-4 text-center"> MERCHANDISING </h2>
 
-            <p> Trabajamos sobre sustrato como vinilo, banner, back-lite, panaflex, foam board, papel fotografico... </p>
+            <p class="text-center"> Trabajamos sobre sustrato como vinilo, banner, back-lite, panaflex, foam board, papel fotografico... </p>
 
             <a class="boton_leer_mas position-absolute my-3" href="s_merchandising.php">
 
@@ -211,7 +211,7 @@ $nombre_inmobiliaria = "Acriformas"
 
             <h2 class="font-weight-bold my-4 text-center"> BIENESTAR Y EVENTOS EMPRESARIALES </h2>
 
-            <p> Trabajamos sobre sustrato como vinilo, banner, back-lite, panaflex, foam board, papel fotografico... </p>
+            <p class="text-center"> Trabajamos sobre sustrato como vinilo, banner, back-lite, panaflex, foam board, papel fotografico... </p>
 
             <a class="boton_leer_mas position-absolute my-3" href="s_bienestar.php">
 
@@ -231,7 +231,7 @@ $nombre_inmobiliaria = "Acriformas"
 
             <h2 class="font-weight-bold my-4 text-center"> SEÑALIZACIÓN INDUSTRIAL </h2>
 
-            <p> Trabajamos sobre sustrato como vinilo, banner, back-lite, panaflex, foam board, papel fotografico... </p>
+            <p class="text-center"> Trabajamos sobre sustrato como vinilo, banner, back-lite, panaflex, foam board, papel fotografico... </p>
 
             <a class="boton_leer_mas position-absolute my-3" href="s_industrial.php">
 

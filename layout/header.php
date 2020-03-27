@@ -135,37 +135,37 @@
 
 
                         <a href="mailto:comercial@acriformas.com" class="correo mx-1 d-flex align-items-center justify-content-center">
-                            <i class="icono m mr-1 fas fa-envelope"></i>
+                            <i class="escalar_icono icono m mr-1 fas fa-envelope"></i>
                             <p> comercial@acriformas.com </p>
                         </a>
 
                         <a href="mailto:comercial@acriformas.com" class="correo mx-1 d-flex align-items-center justify-content-center">
-                            <i class="icono m mr-1 fas fa-phone"></i>
+                            <i class="escalar_icono icono m mr-1 fas fa-phone"></i>
                             <p> 3114452343 </p>
                         </a>
 
 
-                        <a href="#">
+                        <a href="https://www.facebook.com/Acriformas/ ">
                             <div class="mx-1 circulo c_facebook d-flex align-items-center justify-content-center">
-                                <i class="m-auto fab fa-facebook-f"></i>
+                                <i class="escalar_icono m-auto fab fa-facebook-f"></i>
                             </div>
                         </a>
 
-                        <a href="#">
+                        <a href="https://www.instagram.com/acriformas/">
                             <div class="mx-1 circulo c_instagram d-flex align-items-center justify-content-center">
-                                <i class="m-auto fab fa-instagram"></i>
+                                <i class="escalar_icono m-auto fab fa-instagram"></i>
                             </div>
                         </a>
 
-                        <a href="#">
+                        <a href="https://twitter.com/@Acriformas_co">
                             <div class="mx-1 circulo c_twitter d-flex align-items-center justify-content-center">
-                                <i class="m-auto fab fa-twitter"></i>
+                                <i class="escalar_icono m-auto fab fa-twitter"></i>
                             </div>
                         </a>
 
                         <a href="#">
                             <div class="mx-1 circulo c_skype d-flex align-items-center justify-content-center">
-                                <i class="m-auto fab fa-skype"></i>
+                                <i class="escalar_icono m-auto fab fa-skype"></i>
                             </div>
                         </a>
 

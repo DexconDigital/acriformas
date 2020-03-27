@@ -127,11 +127,61 @@ $nombre_inmobiliaria = "Acriformas"
                 <!-- CARRUSEL CON TEXTOS: MISION VISION -->
 
 
-                <!-- IMAGEN -->
-                <div class="col-6 h-75">
-                    <img class="w-100 h-100" src="images/banner.png" alt="">
+                <!-- SLIDER DE IMAGENES -->
+                <div style="height:330px" id="nuestra_oferta" class="col-6 p-0">
+
+                    <div id="carouselExampleControls" class="h-100 carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner h-100">
+
+                            <div class="carousel-item h-100 active ">
+                                <img src="images/slide_1.png" class="h-100 d-block w-100" alt="...">
+                            </div>
+
+                            <div class="carousel-item h-100"> 
+                                <img src="images/slide_2.png" class="h-100 d-block w-100" alt="...">
+                            </div>
+
+                            <div class="carousel-item h-100"> 
+                                <img src="images/slide_3.png" class="h-100 d-block w-100" alt="...">
+                            </div>
+                            
+                        </div>
+                        <!-- IMAGENES -->
+
+
+                        <!-- BOTON IZQUIERDA -->
+                        <a class="btn boton_de_oferta_flecha_izquierda" href="#carouselExampleControls" role="button" data-slide="prev">
+
+                            <p class="texto "> <i class="fas fa-angle-left"></i> </p>
+
+                            <div class="w-100 h-100 boton_oferta">
+
+                            </div>
+
+                            <div class="w-100 h-100 hover_oferta"></div>
+                        </a>
+                        <!-- BOTON IZQUIERDA -->
+
+
+                        <!-- BOTON DERECHA -->
+                        <a class="btn boton_de_oferta_flecha_derecha" href="#carouselExampleControls" role="button" data-slide="next">
+
+                            <p class="texto "> <i class="fas fa-angle-right"></i> </p>
+
+                            <div class="w-100 h-100 boton_oferta">
+
+                            </div>
+
+                            <div class="w-100 h-100 hover_oferta"></div>
+                        </a>
+                        <!-- BOTON DERECHA -->
+
+
+                    </div>
+
                 </div>
-                <!-- IMAGEN -->
+                <!-- SLIDER DE IMAGENES -->
 
             </div>
 
@@ -171,31 +221,31 @@ $nombre_inmobiliaria = "Acriformas"
             <p class="mt-3 font-weight-bold"> Confianza </p>
 
             <div class="progress my-2">
-                <div class="progress-bar bg_c pgq1 progress-bar-striped progress-bar-animated" role="progressbar"aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg_m pgq1 progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
 
             <p class="mt-3 font-weight-bold"> Puntualidad (oportunidad) </p>
 
             <div class="progress my-2">
-                <div class="progress-bar bg_c pgq2 progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg_m pgq2 progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
 
             <p class="mt-3 font-weight-bold"> Liderazgo </p>
 
             <div class="progress my-2">
-                <div class="progress-bar bg_c pgq3 progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg_m pgq3 progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
 
             <p class="mt-3 font-weight-bold"> Conocimiento </p>
 
             <div class="progress my-2">
-                <div class="progress-bar bg_c pgq4 progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg_m pgq4 progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
 
             <p class="mt-3 font-weight-bold"> Respeto </p>
 
             <div class="progress my-2">
-                <div class="progress-bar bg_c pgq5 progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg_m pgq5 progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
 
         </div>
