@@ -185,19 +185,19 @@ $page = "Inicio";
             <!-- CARDS CON ICONOS -->
             <div class="caja_cards rounded col-6 d-flex flex-wrap align-items-center justify-content-center">
 
-                <a href="#" class="col-5 rounded cards0 d-flex align-items-center flex-column justify-content-center mx-3 my-3">
+                <a href="detalle_testimonio_1.php" class="col-5 rounded cards0 d-flex align-items-center flex-column justify-content-center mx-3 my-3">
                     <div class="icono"> <img src="images/logo dexcon digital_blanco.png" alt=""> </div>
                 </a>
 
-                <a href="#" class="col-5 rounded cards0 d-flex align-items-center flex-column justify-content-center mx-3 my-3">
+                <a href="detalle_testimonio_2.php" class="col-5 rounded cards0 d-flex align-items-center flex-column justify-content-center mx-3 my-3">
                     <div class="icono"> <img src="images/logo1.webp" alt=""> </div>
                 </a>
 
-                <a href="#" class="col-5 rounded cards0 d-flex align-items-center flex-column justify-content-center mx-3 mb-3">
+                <a href="detalle_testimonio_3.php" class="col-5 rounded cards0 d-flex align-items-center flex-column justify-content-center mx-3 mb-3">
                     <div class="icono"> <img src="images/logo1.webp" alt=""> </div>
                 </a>
 
-                <a href="#" class="col-5 rounded cards0 d-flex align-items-center flex-column justify-content-center mx-3 mb-3">
+                <a href="detalle_testimonio_4.php" class="col-5 rounded cards0 d-flex align-items-center flex-column justify-content-center mx-3 mb-3">
                     <div class="icono"> <img src="images/logo1.webp" alt=""> </div>
                 </a>
 
@@ -241,7 +241,21 @@ $page = "Inicio";
                 </div>
 
                 <div class="caja_boton position-relative mx-4 mt-3">
-                    <a class="boton_videos" href="#"> <span>&#8250;</span> </a>
+                    <a style="cursor:pointer" class="boton_videos" data-toggle="modal" data-target="#video1"> <span>&#8250;</span> </a>
+                </div>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="video1" tabindex="-1" role="dialog" aria-labelledby="video1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+
+
+                            <iframe src="https://drive.google.com/file/d/1FeuT3DAoCiMwt-u5CIKfulReT5cBK_7W/preview" width="640" height="480"></iframe>
+
+
+                        </div>
+                    </div>
                 </div>
 
             </div>

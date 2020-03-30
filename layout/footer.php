@@ -23,7 +23,7 @@ if($page == 'FAQ') { echo 'subir4'; };
 
         <!-- LOGO -->
         <a href="index.php" class="logo ml-3 col-12 col-md-4 col-lg-4 col-xl-4">
-            <img src="images/acriformas_white.png" alt="">
+            <img src="images/acriformas_color_white.png" alt="">
         </a>
         <!-- LOGO -->
 

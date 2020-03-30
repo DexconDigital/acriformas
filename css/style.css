@@ -12681,6 +12681,10 @@ footer {
   #formulario_clientes .color_a_contacto:hover {
     color: #EC268F; }
 
+#mapa_contactanos {
+  height: 400px;
+  width: 100%; }
+
 #banner {
   height: 200px; }
   #banner .fondo_negro {
