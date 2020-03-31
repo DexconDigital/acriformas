@@ -58,11 +58,13 @@ $page = "Inicio";
                     <p class="text-center mt-2"> Señalización industrial </p>
                 </a>
 
-                <a href="s_bienestar.php" class="p-0 d-flex flex-column align-items-center justify-content-center py-5 icono icono4 col-2">
-                    <img src="images/circulo.png" alt="">
-                    <p class="text-center mt-2"> Bienestar y eventos empresariales </p>
-                </a>
+               <div class="col-2 d-flex align-items-between p-0 justify-content-center">
+                    <a href="s_bienestar.php" class="p-0 d-flex flex-column align-items-center justify-content-center py-5 icono mt-4 icono4">
+                        <img src="images/circulo.png" alt="">
+                        <p class="text-center mt-2"> Bienestar y eventos empresariales </p>
+                    </a>
 
+               </div> 
                 <a href="s_eventos.php" class="p-0 d-flex flex-column align-items-center justify-content-center py-5 icono icono5 col-2">
                     <img src="images/papel.png" alt="">
                     <p class="text-center mt-2"> Ferias y eventos </p>
@@ -81,7 +83,7 @@ $page = "Inicio";
     <!-- SERVICIOS -->
 
     <!-- SECCION ALIADOS  -->
-    <section id="logos">
+    <!-- <section id="logos">
         <div class="d-flex m-auto h-100 align-items-center justify-content-center container">
 
             <div class="col-2">
@@ -109,8 +111,107 @@ $page = "Inicio";
             </div>
 
         </div>
-    </section>
+    </section> -->
     <!-- SECCION ALIADOS  -->
+
+    <!-- ALIADOS -->
+    <section id="aliados" class="d-none d-md-block d-lg-block d-xl-block my-5 container">
+
+
+        <div id="ejemplo" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators mt-2 mb-0">
+                <li style="background-color:gray" data-target="#ejemplo" data-slide-to="0" class="active"></li>
+                <li style="background-color:gray" data-target="#ejemplo" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+
+
+                    <div class="d-flex flex_tablet">
+                        <div class="col-4"> <img class="h-100 d-block w-100" src="images/logo1.webp" alt=""></div>
+                        <div class="col-4"> <img class="h-100 d-block w-100" src="images/logo2.webp" alt=""></div>
+                        <div class="col-4"> <img class="h-100 d-block w-100" src="images/logo3.webp" alt=""></div>
+
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+
+                    <div class="d-flex flex_tablet">
+                        <div class="col-4"> <img class="h-100 d-block w-100" src="images/logo4.webp" alt=""></div>
+                        <div class="col-4"> <img class="h-100 d-block w-100" src="images/logo5.webp" alt=""></div>
+                        <div class="col-4"> <img class="d-block w-100 protecsa" src="images/logo6.webp" alt=""></div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <a class="carousel-control-prev" href="#ejemplo" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#ejemplo" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <!-- ALIADOS -->
+
+    <!-- ALIADOS (RESPONSIVE)  -->
+    <!-- <section id="aliados" class="d-md-none d-lg-none d-xl-none mt-5 container">
+
+        <div class="overflow-hidden container-fluid d-flex align-items-center justify-content-center my-5">
+            <h2 class="linea position-relative"> Nuestros Aliados </h2>
+        </div>
+
+        <div class="col-12">
+
+            <div class="owl-carousel owl-theme d-flex align-items-center justify-content-center" id="aliados_slide">
+
+                <div style="height:200px" class="align-items-center mx-2 contenedor_imagenes contenedor_imagenes_main d-flex justify-content-center">
+                    <img src="images/logo1.webp" alt="">
+                </div>
+
+
+                <div style="height:200px" class="align-items-center mx-2 contenedor_imagenes d-flex justify-content-center">
+                    <img src="images/logo2.webp" alt="">
+                </div>
+
+
+                <div style="height:200px" class="align-items-center mx-2 contenedor_imagenes d-flex justify-content-center">
+                    <img src="images/logo3.webp" alt="">
+                </div>
+
+
+                <div style="height:200px" class="align-items-center mx-2 contenedor_imagenes d-flex justify-content-center">
+                    <img src="images/logo4.webp" alt="">
+                </div>
+
+
+                <div style="height:200px" class="align-items-center mx-2 contenedor_imagenes d-flex justify-content-center">
+                    <img src="images/logo5.webp" alt="">
+                </div>
+
+
+                <div style="height:200px" class="align-items-center mx-2 contenedor_imagenes d-flex justify-content-center">
+                    <img src="images/logo6.webp" alt="">
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </section> -->
+    <!-- ALIADOS (RESPONSIVE)  -->
+
+
+
 
     <!-- SECCION1 -->
     <section id="seccion1" class="d-flex aling-items-center justify-content-center container mt-5">
@@ -227,7 +328,7 @@ $page = "Inicio";
             <!-- CARD 1 -->
             <div class="col-4 p-0 mt-5 card1 cian">
 
-                <div class="imagen position-absolute"> <img src="images/mvideo1.jpg" alt=""> </div>
+                <div class="imagen position-absolute"> <img src="images/impresion_digital.png" alt=""> </div>
 
                 <div class="fondo h-100 w-100 position-absolute"></div>
 

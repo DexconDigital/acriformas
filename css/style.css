@@ -12694,7 +12694,7 @@ footer {
   background-color: #F4F6F9; }
 
 #escogernos {
-  background-color: #271F75; }
+  background-color: black; }
   #escogernos .contenido .activo {
     color: #FFF212; }
   #escogernos .contenido h3 {
@@ -12891,6 +12891,39 @@ footer {
   #servicios .col-3:hover {
     -webkit-box-shadow: 0px 0 20px -7px black;
     box-shadow: 0px 0 20px -7px black; }
+
+#boletin_noticias .fondo {
+  background-color: #00afef6b; }
+
+#boletin_noticias .form-control {
+  background-color: gray;
+  border-color: transparent;
+  color: white;
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px; }
+  #boletin_noticias .form-control:focus {
+    -webkit-box-shadow: inherit;
+    box-shadow: inherit; }
+  #boletin_noticias .form-control::-webkit-input-placeholder {
+    color: white; }
+  #boletin_noticias .form-control:-ms-input-placeholder {
+    color: white; }
+  #boletin_noticias .form-control::-ms-input-placeholder {
+    color: white; }
+  #boletin_noticias .form-control::placeholder {
+    color: white; }
+
+#boletin_noticias .buttonn {
+  background-color: #6FB635;
+  border-radius: 15px;
+  border: none;
+  left: -10px;
+  -webkit-transition: all 250ms;
+  -o-transition: all 250ms;
+  transition: all 250ms; }
+  #boletin_noticias .buttonn:hover {
+    background-color: #EC268F; }
 
 #proyectos .imagen {
   width: 340px;
@@ -13146,3 +13179,16 @@ footer {
     opacity: 0; }
   to {
     opacity: 1; } }
+
+#servicios_detalle .col-3 {
+  border-top: 5px solid green !important; }
+
+#servicios_detalle .activo {
+  color: #6FB635; }
+
+#servicios_detalle a {
+  -webkit-transition: all 250ms;
+  -o-transition: all 250ms;
+  transition: all 250ms; }
+  #servicios_detalle a:hover {
+    color: #6FB635; }

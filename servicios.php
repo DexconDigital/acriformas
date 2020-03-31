@@ -252,6 +252,33 @@ $nombre_inmobiliaria = "Acriformas"
     <!-- SERVICIOS -->
 
 
+    <!-- BOLETIN DE NOTICIAS -->
+    <section id="boletin_noticias" class="position-relative p-5 d-flex flex-column align-items-center justify-content-center">
+
+        <div class="position-absolute w-100 h-100">
+            <img class="w-100 h-100" src="images/banner_impresion_digital.png" alt="">
+        </div>
+
+        <div class="fondo w-100 h-100 position-absolute">
+        </div>
+
+        <div class="position-relative d-flex align-items-center justify-content-center flex-column blanco">
+
+            <h2 class="font-weight-bold"> BOLETÍN </h2>
+            <p> Suscribete a nuestro boletín de noticias </p>
+
+            <div class="mt-4">
+                <div class="form-group d-flex">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu correo electrónico">
+                    <input type="button" class="buttonn blanco position-relative px-2" value="Regístrate">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- BOLETIN DE NOTICIAS -->
+
+
 
 
 

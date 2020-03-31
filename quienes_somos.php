@@ -73,7 +73,7 @@ $nombre_inmobiliaria = "Acriformas"
 
         <div class="container">
 
-            <h4 class="y text-center pb-3"> ACRIFORMAS PUBLICIDAD </h4>
+            <h4 class="verde text-center pb-3"> ACRIFORMAS PUBLICIDAD </h4>
 
             <h2 class="blanco font-weight-bold text-center mb-5"> ¿POR QUÉ ESCOGERNOS? </h2>
 
@@ -86,7 +86,7 @@ $nombre_inmobiliaria = "Acriformas"
                     <div class="accordion" id="accordionExample">
 
                         <div class="my-3">
-                            <h3 class="uno font-weight-bold blanco activo" data-toggle="collapse" data-target="#uno">
+                            <h3 class="uno font-weight-bold verde activo" data-toggle="collapse" data-target="#uno">
                                 Promesa de Valor
                             </h3>
 
@@ -98,7 +98,7 @@ $nombre_inmobiliaria = "Acriformas"
                         </div>
 
                         <div class="my-3">
-                            <h3 class="dos font-weight-bold blanco" data-toggle="collapse" data-target="#dos">
+                            <h3 class="dos font-weight-bold verde" data-toggle="collapse" data-target="#dos">
                                 Misión
                             </h3>
 
@@ -110,7 +110,7 @@ $nombre_inmobiliaria = "Acriformas"
                         </div>
 
                         <div class="my-3">
-                            <h3 class="tres font-weight-bold blanco" data-toggle="collapse" data-target="#tres">
+                            <h3 class="tres font-weight-bold verde" data-toggle="collapse" data-target="#tres">
                                 Visión
                             </h3>
 

@@ -37,25 +37,66 @@ $nombre_inmobiliaria = "Acriformas";
     </section>
     <!-- BANNER -->
 
-    <section id="s_digital" class="my-5">
+    <section id="servicios_detalle" class="d-flex flex-wrap container my-5">
 
-        <div class="d-flex col-6 py-5 m-auto align-items-center justify-content-center flex-column">
 
-            <div class="caja_icono p-4 position-relative">
+        <div class="col-3 pt-5 border-top">
 
-                <div class="caja_fondo4 caja_fondo"> </div>
+            <h2 class="mb-3"> SERVICIOS </h2>
 
-                <img class="position-relative" src="images/circulo.png" alt="">
+            <div> > <a class="<?php if ($page == 'Impresión Digital') {
+                                    echo 'activo';
+                                } ?> font-weight-bold" href="s_digital.php">Impresión Digital </a> </div>
+            <div> > <a class="<?php if ($page == 'Impresión offset') {
+                                    echo 'activo';
+                                } ?> font-weight-bold" href="s_offset.php">Impresión Offset </a> </div>
+            <div> > <a class="<?php if ($page == 'Señalización Industrial') {
+                                    echo 'activo';
+                                } ?> font-weight-bold" href="s_industrial.php">Señalización Industrial </a> </div>
+            <div> > <a class="<?php if ($page == 'Bienestar y eventos empresariales') {
+                                    echo 'activo';
+                                } ?> font-weight-bold" href="s_bienestar.php">Bienestar y eventos empresariales </a> </div>
+            <div> > <a class="<?php if ($page == 'Ferias y eventos') {
+                                    echo 'activo';
+                                } ?> font-weight-bold" href="s_eventos.php">Ferias y eventos </a> </div>
+            <div> > <a class="<?php if ($page == 'Merchandising') {
+                                    echo 'activo';
+                                } ?> font-weight-bold" href="s_merchandising.php">Merchandising </a> </div>
 
+        </div>
+
+
+        <div class="col-9">
+
+            <div class="col-12 d-flex align-items-center justify-content-center mb-5">
+                <img src="images/no_image.png" alt="">
             </div>
 
+            <h2 class="text-center font-weight-bold mb-3"> Bienestar y eventos empresariales </h2>
 
-            <h4 class="mt-3 titulo font-weight-bold"> Bienestar y eventos empresariales </h4>
+            <p class="text-justify mb-3"> Contamos con la mejor opción para sorprender a sus empleados con obsequios,
+                diseños e imagen corporativa o el concepto publicitario que quiera manejar.
+                Nuestro equipo está preparado para organizar y realizar eventos para su
+                compañía.
+            </p>
 
-            <p class="parrafo mt-2 text-justify"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quae nemo, tempora earum atque, ratione eius omnis modi illo, dicta natus accusantium recusandae eos sint laboriosam fugit. Vitae dolorum distinctio minima deserunt temporibus eius commodi molestias exercitationem at, rem deleniti id odio ab iusto porro tempora, fuga, aliquam amet culpa. </p>
+            <ul>
+                <li> Cristales</li>
+                <li> Piedras</li>
+                <li> Mugs</li>
+                <li> Eventos de fin de año</li>
+                <li> Fiestas empresariales</li>
+                <li> Eventos temáticos (navidad, Halloween)</li>
+                <li> Protocolo y etiqueta</li>
+                <li> Desayuno de trabajo</li>
+                <li> Lanzamientos</li>
+                <li> Buffets</li>
+            </ul>
 
 
         </div>
+
+
 
 
     </section>

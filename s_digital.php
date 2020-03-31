@@ -40,7 +40,7 @@ $nombre_inmobiliaria = "Acriformas";
 
 
 
-    <section id="s_digital" class="my-5">
+    <!-- <section id="s_digital" class="my-5">
 
         <div class="d-flex col-6 py-5 m-auto align-items-center justify-content-center flex-column">
 
@@ -61,13 +61,100 @@ $nombre_inmobiliaria = "Acriformas";
         </div>
 
 
+    </section> -->
+
+
+    <section id="servicios_detalle" class="d-flex flex-wrap container my-5">
+
+
+        <div class="col-3 pt-5 border-top">
+
+            <h2 class="mb-3"> SERVICIOS </h2>
+
+            <div> > <a class="<?php if ($page == 'Impresión Digital') {
+                                    echo 'activo';
+                                } ?> font-weight-bold" href="s_digital.php">Impresión Digital </a> </div>
+            <div> > <a class="<?php if ($page == 'Impresión offset') {
+                                    echo 'activo';
+                                } ?> font-weight-bold" href="s_offset.php">Impresión Offset </a> </div>
+            <div> > <a class="<?php if ($page == 'Señalización Industrial') {
+                                    echo 'activo';
+                                } ?> font-weight-bold" href="s_industrial.php">Señalización Industrial </a> </div>
+            <div> > <a class="<?php if ($page == 'Bienestar y eventos empresariales') {
+                                    echo 'activo';
+                                } ?> font-weight-bold" href="s_bienestar.php">Bienestar y eventos empresariales </a> </div>
+            <div> > <a class="<?php if ($page == 'Ferias y eventos') {
+                                    echo 'activo';
+                                } ?> font-weight-bold" href="s_eventos.php">Ferias y eventos </a> </div>
+            <div> > <a class="<?php if ($page == 'Merchandising') {
+                                    echo 'activo';
+                                } ?> font-weight-bold" href="s_merchandising.php">Merchandising </a> </div>
+
+        </div>
+
+
+        <div class="col-9">
+
+            <div class="col-12 d-flex align-items-center justify-content-center mb-5">
+                <img src="images/no_image.png" alt="">
+            </div>
+
+            <h2 class="text-center font-weight-bold mb-3"> Impresión Digital </h2>
+
+
+            <p class="text-justify mb-3"> Trabajamos sobre sustratos como vinilo, banner, back-lite, panaflex, foam board, papel forografáfico, manteriales que nos permiten elaborar piezas como:
+
+            </p>
+
+            <ul style="max-height: 40vh; overflow:scroll;">
+                <li>Tropezones</li>
+                <li>Pendones, vallas</li>
+                <li>Branding vehicular</li>
+                <li>Brandeo de vidrios</li>
+                <li>Impresión gigantografía</li>
+                <li>Decoración de puntos de venta</li>
+                <li>Retablos</li>
+                <li>Bastidores</li>
+                <li>Cajas de luz</li>
+                <li>Floor graphic</li>
+                <li>Buzones</li>
+                <li>Marchos habatibles</li>
+                <li>Porta pendones</li>
+                <ul>
+                    <li>Sky-line</li>
+                    <li>Estructuras de exhibición</li>
+                    <li>Diseño y producción de stand</li>
+                    <li>Volumetricos</li>
+                    <li>Pasamensajes</li>
+                    <li>Portapendones</li>
+                    <li>Araña</li>
+                    <li>Doble araña</li>
+                    <li>Trípode</li>
+                    <li>Porta man</li>
+                    <li>Backing</li>
+                    <li>Retractil</li>
+                    <li>Retractil de lujo</li>
+                    <li>Bigger</li>
+                    <li>Roll up</li>
+                </ul>
+                <li>Sistemas de exhibición</li>
+                <ul>
+                    <li>Pop up recto</li>
+                    <li>Pop up curvo</li>
+                    <li>Counter de lujo</li>
+                    <li>Counter pop up</li>
+                    <li>Counter plástico</li>
+                </ul>
+            </ul>
+
+
+
+
+
+
+
+
     </section>
-
-
-
-
-
-
 
 
 

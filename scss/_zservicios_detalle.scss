@@ -1,0 +1,20 @@
+#servicios_detalle {
+
+    .col-3 {
+        border-top: 5px solid green!important;
+    }
+
+
+    .activo {
+        color: $verde;
+    }
+
+    a {
+
+        transition: all 250ms;
+        &:hover {
+            color: $verde;
+        }
+    }
+
+}

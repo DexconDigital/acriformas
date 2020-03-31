@@ -38,28 +38,69 @@ $nombre_inmobiliaria = "Acriformas";
     <!-- BANNER -->
 
 
-    <section id="s_digital" class="my-5">
-
-<div class="d-flex col-6 py-5 m-auto align-items-center justify-content-center flex-column">
-
-    <div class="caja_icono p-4 position-relative">
-
-        <div class="caja_fondo5 caja_fondo"> </div>
-
-        <img class="position-relative" src="images/camisa.png" alt="">
-
-    </div>
+    <section id="servicios_detalle" class="d-flex flex-wrap container my-5">
 
 
-    <h4 class="mt-3 titulo font-weight-bold"> Merchandising </h4>
+        <div class="col-3 pt-5 border-top">
 
-    <p class="parrafo mt-2 text-justify"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quae nemo, tempora earum atque, ratione eius omnis modi illo, dicta natus accusantium recusandae eos sint laboriosam fugit. Vitae dolorum distinctio minima deserunt temporibus eius commodi molestias exercitationem at, rem deleniti id odio ab iusto porro tempora, fuga, aliquam amet culpa. </p>
+            <h2 class="mb-3"> SERVICIOS </h2>
+
+            <div> > <a class="<?php if ($page == 'Impresión Digital') {
+                                    echo 'activo';
+                                } ?> font-weight-bold" href="s_digital.php">Impresión Digital </a> </div>
+            <div> > <a class="<?php if ($page == 'Impresión offset') {
+                                    echo 'activo';
+                                } ?> font-weight-bold" href="s_offset.php">Impresión Offset </a> </div>
+            <div> > <a class="<?php if ($page == 'Señalización Industrial') {
+                                    echo 'activo';
+                                } ?> font-weight-bold" href="s_industrial.php">Señalización Industrial </a> </div>
+            <div> > <a class="<?php if ($page == 'Bienestar y eventos empresariales') {
+                                    echo 'activo';
+                                } ?> font-weight-bold" href="s_bienestar.php">Bienestar y eventos empresariales </a> </div>
+            <div> > <a class="<?php if ($page == 'Ferias y eventos') {
+                                    echo 'activo';
+                                } ?> font-weight-bold" href="s_eventos.php">Ferias y eventos </a> </div>
+            <div> > <a class="<?php if ($page == 'Merchandising') {
+                                    echo 'activo';
+                                } ?> font-weight-bold" href="s_merchandising.php">Merchandising </a> </div>
+
+        </div>
 
 
-</div>
+        <div class="col-9">
+
+            <div class="col-12 d-flex align-items-center justify-content-center mb-5">
+                <img src="images/no_image.png" alt="">
+            </div>
+
+            <h2 class="text-center font-weight-bold mb-3"> Merchandising </h2>
 
 
-</section>
+            <p class="text-justify mb-3"> Artículos promocionales marcados a: Lasser, screen, tampografía y bordados. </p>
+
+            <ul>
+                <li>Botones</li>
+                <li>Esferos</li>
+                <li>Mugs</li>
+                <li>Sombrillas</li>
+                <li>Agendas</li>
+                <li>Llaveros</li>
+                <li>Usb</li>
+                <li>Camisetas</li>
+                <li>Gorras</li>
+                <li>Antiestrés</li>
+                <li>Manillas</li>
+                <li>Productos de oficina</li>
+                <li>Termos</li>
+            </ul>
+
+
+        </div>
+
+
+
+
+    </section>
 
 
 

@@ -274,3 +274,46 @@
    
 
 }
+
+#boletin_noticias {
+
+    .fondo {
+
+        background-color: #00afef6b;
+
+    }
+
+    .form-control {
+
+        background-color: gray;
+        border-color: transparent;
+        color: white;
+        border-radius: 15px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+
+        &:focus {
+            box-shadow: inherit;
+        }
+
+        &::placeholder {
+            color: white;
+        }
+
+    }
+
+    .buttonn {
+
+        background-color: $verde;
+        border-radius: 15px;
+        border: none;
+        left: -10px;
+        transition: all 250ms;
+
+        &:hover {
+            background-color: $m;
+        }
+
+    }
+
+}
